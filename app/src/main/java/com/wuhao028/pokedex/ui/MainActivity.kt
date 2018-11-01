@@ -18,11 +18,10 @@ class MainActivity : AppCompatActivity() ,RecyclerListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val pokeAdapter =PokeAdapter(this,DataManager.instance.getData())
+        val pokeAdapter =PokeAdapter(this,DataManager.instance.getPokemonData())
         mRecyclerView.layoutManager = LinearLayoutManager(this)
         mRecyclerView.adapter = pokeAdapter
         mRecyclerView.setHasFixedSize(true);
-
     }
 
     override fun onClick(view: View, position: Int) {

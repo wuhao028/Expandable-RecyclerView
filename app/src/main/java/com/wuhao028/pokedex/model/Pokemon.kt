@@ -10,11 +10,11 @@ import org.json.JSONObject
  *Created by WuHao028 on 31/10/18
  */
 
-data class Pokemon(@SerializedName("base") val base: JsonObject,
-                   @SerializedName("cnname") val cnname: String,
-                   @SerializedName("enname") val enname: String,
-                   @SerializedName("jpname") val jpname: String,
-                   @SerializedName("id") val id: String,
-                   @SerializedName("skills") val skills: JsonObject,
-                   @SerializedName("type") val type: JsonArray)
+data class Pokemon(val base: JSONObject,
+                   val cname: String,
+                   val ename: String,
+                   val jname: String,
+                   val id: String,
+                   val skills: JsonObject,
+                   val type: JsonArray)
 

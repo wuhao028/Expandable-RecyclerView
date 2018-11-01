@@ -22,7 +22,7 @@ class PokeAdapter(val listener:RecyclerListener?,val data:List<Pokemon>): Recycl
     }
 
     override fun onBindViewHolder(holder: ViewHolder?, position: Int) {
-        holder?.name?.text = data.get(position).id
+        holder?.name?.text = data.get(position).cname
         holder?.image?.setImageResource(R.drawable.charmander)
         listener?.let {
             holder?.itemView?.setOnClickListener {

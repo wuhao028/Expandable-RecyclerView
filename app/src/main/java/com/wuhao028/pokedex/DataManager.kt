@@ -13,6 +13,8 @@ import org.json.JSONArray
 class DataManager private constructor() {
 
     lateinit var pokemons: JSONArray
+    lateinit var data: MutableList<Pokemon>
+
     val tag: String = "DataManager"
 
     companion object {
@@ -23,24 +25,21 @@ class DataManager private constructor() {
 
     fun initDataManager(context: Context) {
         val assetManager = context.getAssets()
-        val json_String = assetManager.open("pokedex.json").bufferedReader().use { it.readText() }
+        val json_String = assetManager.open(Constants.POKEMON_JSON).bufferedReader().use { it.readText() }
         try {
             pokemons= JSONArray(json_String)
         } catch (e: Exception) {
             Log.e(tag, e.message)
         }
-    }
-
-//    fun getData(): JSONArray {
-//        return pokemons
-//    }
-
-    fun getData():List<Pokemon>{
         val gson = Gson()
-        var data: MutableList<Pokemon> = arrayListOf()
+        data = arrayListOf()
         for (i in 0..pokemons.length()-1){
             data.add(gson.fromJson(pokemons[i].toString(),Pokemon::class.java))
         }
+    }
+
+
+    fun getPokemonData():List<Pokemon>{
         return data
     }
 }
