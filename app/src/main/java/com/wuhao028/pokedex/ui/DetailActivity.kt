@@ -28,7 +28,7 @@ class DetailActivity : AppCompatActivity(){
         id = getIntent().getIntExtra(Constants.POKEMON_ID,0)
         var pokemon=DataManager.instance.getPokemonData().get(id)
         pokename.setText(pokemon.ename)
-        pokeimage.setImageResource(DataManager.instance.getDrawableID(pokemon.ename))
+        pokeimage.setImageResource(DataManager.instance.getDrawableID("hd"+pokemon.ename))
 
         var baseObject = pokemon.base
         poke_atk_value.setText(baseObject.get(Constants.ATTACK).toString())
