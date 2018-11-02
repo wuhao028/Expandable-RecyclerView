@@ -1,7 +1,9 @@
 package com.wuhao028.pokedex
 
 import android.app.Application
+import android.content.Context
 import android.util.Log
+import kotlin.properties.Delegates
 
 
 /**
@@ -9,11 +11,20 @@ import android.util.Log
  */
 class PokeApplication : Application() {
 
+    companion object {
+
+        private val TAG = "PokeApplication"
+
+        var context: Context by Delegates.notNull()
+            private set
+
+    }
 
     override fun onCreate() {
         super.onCreate()
         Log.d("PokeApplication", "application begin")
         DataManager.instance.initDataManager(this)
+        context = this.applicationContext
     }
 
 }
