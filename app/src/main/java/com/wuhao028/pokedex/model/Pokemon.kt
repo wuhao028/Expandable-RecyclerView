@@ -8,7 +8,7 @@ import org.json.JSONObject
  *Created by WuHao028 on 31/10/18
  */
 
-data class Pokemon(val base: JSONObject,
+data class Pokemon(val base: JsonObject,
                    val cname: String,
                    val ename: String,
                    val jname: String,

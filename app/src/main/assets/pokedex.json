@@ -14470,5 +14470,22 @@
         "type": [
             "\u8d85\u80fd"
         ]
+    }, {
+        "base": {
+            "Attack": 100,
+            "Defense": 100,
+            "HP": 100,
+            "Sp.Atk": 100,
+            "Sp.Def": 100,
+            "Speed": 100
+        },
+        "cname": "\u68a6\u5e7b",
+        "ename": "Mew",
+        "id": "151",
+        "jname": "\u30df\u30e5\u30a6",
+        "skills": {},
+        "type": [
+            "\u8d85\u80fd"
+        ]
     }
 ]

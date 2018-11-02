@@ -1,10 +1,13 @@
 package com.wuhao028.pokedex.ui
 
+import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import android.widget.Toast
+import com.wuhao028.pokedex.Constants
 import com.wuhao028.pokedex.DataManager
 import com.wuhao028.pokedex.R
 import com.wuhao028.pokedex.`interface`.RecyclerListener
@@ -21,10 +24,12 @@ class MainActivity : AppCompatActivity(), RecyclerListener {
         val pokeAdapter = PokeAdapter(this, DataManager.instance.getPokemonData())
         mRecyclerView.layoutManager = LinearLayoutManager(this)
         mRecyclerView.adapter = pokeAdapter
-        mRecyclerView.setHasFixedSize(true);
+        mRecyclerView.setHasFixedSize(true)
     }
 
     override fun onClick(view: View, position: Int) {
-        Toast.makeText(this, "this is it ", Toast.LENGTH_SHORT).show()
+        val intent = Intent(this,DetailActivity::class.java)
+        intent.putExtra(Constants.POKEMON_ID,position)
+        this.startActivity(intent)
     }
 }
