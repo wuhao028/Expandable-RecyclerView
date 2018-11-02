@@ -8,25 +8,62 @@
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:layout_alignParentLeft="true"
         />
 
 
-    <TextView
-        android:id="@+id/name"
+    <LinearLayout
+        android:id="@+id/name_no"
+        android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginLeft="60dp"
-        android:textSize="16dp"
-        android:gravity="center_vertical"
-        />
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/poke_no"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="60dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/poke_type_one"
+            android:layout_width="45dp"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:layout_height="18dp"/>
+
+        <ImageView
+            android:id="@+id/poke_type_two"
+            android:layout_width="45dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_height="18dp"/>
+    </LinearLayout>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/grey"
+        android:background="@color/gainsboro"
         android:layout_marginLeft="50dp"
         />
 </RelativeLayout>

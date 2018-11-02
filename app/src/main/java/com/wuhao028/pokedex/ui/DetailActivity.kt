@@ -21,8 +21,7 @@ class DetailActivity : AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE)
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        this.getSupportActionBar()?.hide()
         setContentView(R.layout.activity_detail)
 
         id = getIntent().getIntExtra(Constants.POKEMON_ID,0)

@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
+import android.view.Window
+import android.view.WindowManager
 import android.widget.Toast
 import com.wuhao028.pokedex.Constants
 import com.wuhao028.pokedex.DataManager
@@ -19,6 +21,7 @@ class MainActivity : AppCompatActivity(), RecyclerListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        this.getSupportActionBar()?.hide()
         setContentView(R.layout.activity_main)
 
         val pokeAdapter = PokeAdapter(this, DataManager.instance.getPokemonData())

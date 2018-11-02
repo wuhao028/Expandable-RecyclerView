@@ -6,160 +6,30 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="PokeAdapter" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ba8f1d0-0ce9-4e80-a315-defe8c834d4a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdabra.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdaerodactyl.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdalakazam.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdarbok.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdarcanine.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdarticuno.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdbeedrill.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdbellsprout.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdblastoise.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdbulbasaur.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdbutterfree.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdcaterpie.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdchansey.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdcharizard.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdcharmander.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdcharmeleon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdclefable.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdclefairy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdcloyster.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdcubone.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hddewgong.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hddiglett.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdditto.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hddodrio.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hddoduo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hddragonair.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hddragonite.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hddratini.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hddrowzee.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hddugtrio.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdeevee.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdekans.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdelectabuzz.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdelectrode.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdexeggcute.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdexeggutor.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdfarfetchd.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdfearow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdflareon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdgastly.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdgengar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdgeodude.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdgloom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdgolbat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdgoldeen.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdgolduck.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdgolem.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdgraveler.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdgrimer.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdgrowlithe.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdgyarados.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdhaunter.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdhitmonchan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdhitmonlee.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdhorsea.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdhypno.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdivysaur.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdjigglypuff.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdjolteon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdjynx.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdkabuto.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdkabutops.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdkadabra.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdkakuna.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdkangaskhan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdkingler.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdkoffing.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdkrabby.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdlapras.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdlickitung.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmachamp.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmachoke.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmachop.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmagikarp.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmagmar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmagnemite.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmagneton.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmankey.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmarowak.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmeowth.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmetapod.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmew.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmewtwo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmoltres.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmrmime.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdmuk.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdnidoking.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdnidoqueen.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdnidoran.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdnidorina.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdnidorino.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdninetales.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdoddish.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdomanyte.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdomastar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdonix.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdparas.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdparasect.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdpersian.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdpidgeot.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdpidgeotto.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdpidgey.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdpikachu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdpinsir.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdpoliwag.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdpoliwhirl.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdpoliwrath.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdponyta.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdporygon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdprimeape.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdpsyduck.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdraichu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdrapidash.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdraticate.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdrattata.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdrhydon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdrhyhorn.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdsandshrew.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdsandslash.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdscyther.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdseadra.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdseaking.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdseel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdshellder.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdslowbro.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdslowpoke.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdsnorlax.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdspearow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdsquirtle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdstarmie.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdstaryu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdtangela.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdtauros.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdtentacool.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdtentacruel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdvaporeon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdvenomoth.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdvenonat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdvenusaur.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdvictreebel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdvileplume.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdvoltorb.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdvulpix.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdwartortle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdweedle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdweepinbell.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdweezing.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdwigglytuff.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdzapdos.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hdzubat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/util/Util.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bug.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dark.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dragon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/electric.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fairy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fighting.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fire.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/flying.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ghost.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/grass.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ground.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ice.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/normal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/posion.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/psychic.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/steel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/water.png" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
@@ -169,8 +39,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/PokeAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/PokeAdapter.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item.xml" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/api-versions-14-25.0.4.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/test/espresso/group-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/test/group-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-en.txt-2.bin" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -192,64 +74,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DetailActivity.kt" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DetailActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="30" column="75" lean-forward="false" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
-              <folding>
-                <element signature="e#33#380#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PokeAdapter.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/PokeAdapter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataManager.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/DataManager.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Extensions.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/Extensions.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pokemon.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/Pokemon.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/Constants.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="0">
+              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -258,8 +88,8 @@
       <file leaf-file-name="activity_detail.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -268,11 +98,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PokeAdapter.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/PokeAdapter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/util/Util.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="item.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="391">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -287,9 +147,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -2421,10 +2281,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/PokeAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/PokeApplication.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/Extensions.kt" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/rectangle.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_hp_rectangle.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_def_rectangle.xml" />
@@ -2435,10 +2293,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/Constants.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/Pokemon.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/DataManager.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" />
         <option value="$PROJECT_DIR$/app/src/main/assets/pokedex.json" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/PokeAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/util/Util.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/PokeAdapter.kt" />
       </list>
     </option>
   </component>
@@ -2462,8 +2323,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -2495,14 +2357,6 @@
               <item name="app" type="cbb8eebc:String" user="app" />
               <item name="src" type="cbb8eebc:String" user="src" />
               <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="assets" type="cbb8eebc:String" user="assets" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
               <item name="java" type="cbb8eebc:String" user="java" />
             </path>
             <path>
@@ -2522,70 +2376,32 @@
               <item name="main" type="cbb8eebc:String" user="main" />
               <item name="java" type="cbb8eebc:String" user="java" />
               <item name="com/wuhao028/pokedex" type="cbb8eebc:String" user="com/wuhao028/pokedex" />
-              <item name="adapter" type="cbb8eebc:String" user="adapter" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-              <item name="com/wuhao028/pokedex" type="cbb8eebc:String" user="com/wuhao028/pokedex" />
-              <item name="presenter" type="cbb8eebc:String" user="presenter" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-              <item name="com/wuhao028/pokedex" type="cbb8eebc:String" user="com/wuhao028/pokedex" />
-              <item name="ui" type="cbb8eebc:String" user="ui" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="res" type="cbb8eebc:String" user="res" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="res" type="cbb8eebc:String" user="res" />
-              <item name="mipmap-xxxhdpi" type="cbb8eebc:String" user="mipmap-xxxhdpi" />
+              <item name="util" type="cbb8eebc:String" user="util" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="192.168.57.101:5555" />
+    <property name="device.picker.selection" value="6EB0217610001617" />
     <property name="SearchEverywhereHistoryKey" value="datama&#9;FILE&#9;file:///Users/EddieWoo/PersonalPro/pokedex/app/src/main/java/com/wuhao028/pokedex/DataManager.kt" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxh" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/interface" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2771,37 +2587,37 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34801137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20170455" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2471591" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2471591" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30113637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20170455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2845,11 +2661,28 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#380#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="62" column="10" lean-forward="true" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2857,23 +2690,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/RecyclerListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/RecyclerListener.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/0070cda68b052eb38a41487e00b8b26d/jars/classes.jar!/android/support/v7/widget/RecyclerView.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="5974" column="15" lean-forward="false" selection-start-line="5974" selection-start-column="15" selection-end-line="5974" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2888,11 +2712,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/146Moltres.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/146Moltres.png" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/squirtle.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2932,19 +2752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/2e8041d08283cbbb58ad131617486fc6449f6c85/kotlin-stdlib-1.2.71-sources.jar!/kotlin/text/StringsJVM.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="71" column="25" lean-forward="false" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2957,28 +2768,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$USER_HOME$/Android/sdk/sources/android-26/android/widget/ImageView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="475" column="0" lean-forward="true" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -3034,30 +2837,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/Constants.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/pokedex.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="14477" column="17" lean-forward="false" selection-start-line="14477" selection-start-column="17" selection-end-line="14477" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3066,21 +2849,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/DataManager.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/Pokemon.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="449">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3093,29 +2865,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/DataManager.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/Pokemon.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/Constants.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/26.0.0/55376e7b28583b8deb061f1c6f7fd83233ac1635/recyclerview-v7-26.0.0-sources.jar!/android/support/v7/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="10439" column="15" lean-forward="false" selection-start-line="10439" selection-start-column="15" selection-end-line="10439" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/dark.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/items.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42466">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/skills.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/util/Util.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/PokeAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="334">
+          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="30" column="75" lean-forward="false" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
-          <folding>
-            <element signature="e#33#380#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

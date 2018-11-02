@@ -11,6 +11,16 @@
         android:layout_marginTop="20dp"
         ></ImageView>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gainsboro"
+        android:layout_below="@+id/pokeimage"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
     <TextView
         android:id="@+id/pokename"
         android:layout_width="wrap_content"
