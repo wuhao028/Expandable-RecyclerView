@@ -20,17 +20,17 @@ class MainActivity : AppCompatActivity(), RecyclerListener {
         this.getSupportActionBar()?.hide()
         setContentView(R.layout.activity_main)
 
-        val adapter = RecyclerViewAdapter(DataManager.instance.getPokemonData2(),this)
+        val adapter = RecyclerViewAdapter(DataManager.instance.getPokemonData2(), this)
         mRecyclerView.layoutManager = LinearLayoutManager(this)
         mRecyclerView.adapter = adapter
         mRecyclerView.setHasFixedSize(true)
     }
 
     override fun onClick(view: View?, position: Int?) {
-        if(position!=null){
-        val intent = Intent(this,DetailActivity::class.java)
-        intent.putExtra(Constants.POKEMON_ID,position)
-        this.startActivity(intent)
+        if (position != null) {
+            val intent = Intent(this, DetailActivity::class.java)
+            intent.putExtra(Constants.POKEMON_ID, position)
+            this.startActivity(intent)
         }
     }
 

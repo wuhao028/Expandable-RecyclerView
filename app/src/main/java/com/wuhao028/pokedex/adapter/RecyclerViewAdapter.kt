@@ -1,23 +1,23 @@
 package com.wuhao028.pokedex.adapter
 
 import android.content.Context
-import android.support.v4.content.ContextCompat
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.*
 import com.wuhao028.pokedex.DataManager
-import com.wuhao028.pokedex.model.ParentDataItem
-import kotlinx.android.synthetic.main.item_parent_child_listing.view.*
 import com.wuhao028.pokedex.R
 import com.wuhao028.pokedex.`interface`.RecyclerListener
+import com.wuhao028.pokedex.model.ParentDataItem
+import com.wuhao028.pokedex.view.PokeItemView
+import kotlinx.android.synthetic.main.item_parent_child_listing.view.*
+
 
 /**
  *Created by WuHao028 on 3/11/18
  */
 
-class RecyclerViewAdapter(val parentDataItems: MutableList<ParentDataItem>,val listener: RecyclerListener) : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
+class RecyclerViewAdapter(val parentDataItems: MutableList<ParentDataItem>, val listener: RecyclerListener) : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, position: Int): RecyclerViewAdapter.MyViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_parent_child_listing, parent, false)
@@ -46,7 +46,7 @@ class RecyclerViewAdapter(val parentDataItems: MutableList<ParentDataItem>,val l
                     itemView.ll_child_items?.visibility = View.VISIBLE
                 }
             } else {
-                listener.onClick(view,view?.id)
+                listener.onClick(view, view?.id)
             }
         }
 
@@ -54,22 +54,9 @@ class RecyclerViewAdapter(val parentDataItems: MutableList<ParentDataItem>,val l
             context = itemView.context
             itemView.ll_child_items?.visibility = View.GONE
             val intMaxNoOfChild = dummyParentDataItem.childDataItems.size
-//            val intMaxSizeTemp = dummyParentDataItem.childDataItems.size
-//            if (intMaxSizeTemp > intMaxNoOfChild)
-//                intMaxNoOfChild = intMaxSizeTemp
 
             for (indexView in 0 until intMaxNoOfChild) {
-
-                val imageView = ImageView(context)
-                imageView.id = indexView
-                imageView.setPadding(0, 20, 0, 20)
-                imageView.background = ContextCompat.getDrawable(context!!, R.drawable.background_sub_module_text)
-                imageView.setImageResource(R.drawable.charmander)
-                val text_layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT)
-                imageView.setOnClickListener(this)
-
-                itemView.ll_child_items?.addView(imageView, text_layoutParams)
-
+                itemView.ll_child_items.addView(PokeItemView(itemView.context))
             }
             itemView.parent_header?.setOnClickListener(this)
 
@@ -80,13 +67,16 @@ class RecyclerViewAdapter(val parentDataItems: MutableList<ParentDataItem>,val l
 
             if (noOfChild < noOfChildTextViews!!) {
                 for (index in noOfChild until noOfChildTextViews) {
-                    val currentTextView = itemView.ll_child_items!!.getChildAt(index) as TextView
+                    val currentTextView = itemView.ll_child_items!!.getChildAt(index)
                     currentTextView.visibility = View.GONE
                 }
             }
             for (textViewIndex in 0 until noOfChild) {
-                val currentTextView = itemView.ll_child_items!!.getChildAt(textViewIndex) as ImageView
-                currentTextView.setImageResource(DataManager.instance.getDrawableID(dummyParentDataItem.childDataItems[textViewIndex].ename))
+                val currentTextView = itemView.ll_child_items!!.getChildAt(textViewIndex) as PokeItemView
+                currentTextView.setImage(DataManager.instance.getDrawableID(dummyParentDataItem.childDataItems[textViewIndex].ename))
+                currentTextView.setNumber("# " + textViewIndex)
+                currentTextView.setTypes(dummyParentDataItem.childDataItems[textViewIndex].type)
+                currentTextView.setName(dummyParentDataItem.childDataItems[textViewIndex].ename)
             }
         }
     }
