@@ -1,19 +1,15 @@
 package com.wuhao028.pokedex.ui
 
-import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
-import android.view.Window
-import android.view.WindowManager
-import android.widget.Toast
 import com.wuhao028.pokedex.Constants
 import com.wuhao028.pokedex.DataManager
 import com.wuhao028.pokedex.R
 import com.wuhao028.pokedex.`interface`.RecyclerListener
-import com.wuhao028.pokedex.adapter.PokeAdapter
+import com.wuhao028.pokedex.adapter.RecyclerViewAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), RecyclerListener {
@@ -24,15 +20,19 @@ class MainActivity : AppCompatActivity(), RecyclerListener {
         this.getSupportActionBar()?.hide()
         setContentView(R.layout.activity_main)
 
-        val pokeAdapter = PokeAdapter(this, DataManager.instance.getPokemonData())
+        val adapter = RecyclerViewAdapter(DataManager.instance.getPokemonData2(),this)
         mRecyclerView.layoutManager = LinearLayoutManager(this)
-        mRecyclerView.adapter = pokeAdapter
+        mRecyclerView.adapter = adapter
         mRecyclerView.setHasFixedSize(true)
     }
 
-    override fun onClick(view: View, position: Int) {
+    override fun onClick(view: View?, position: Int?) {
+        if(position!=null){
         val intent = Intent(this,DetailActivity::class.java)
         intent.putExtra(Constants.POKEMON_ID,position)
         this.startActivity(intent)
+        }
     }
+
+
 }

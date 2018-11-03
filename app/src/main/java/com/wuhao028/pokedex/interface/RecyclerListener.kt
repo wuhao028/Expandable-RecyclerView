@@ -7,5 +7,5 @@ import android.view.View
  */
 
 interface RecyclerListener {
-    fun onClick(view: View, position: Int)
+    fun onClick(view: View?, position: Int?)
 }

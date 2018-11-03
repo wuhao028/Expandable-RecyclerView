@@ -2,7 +2,7 @@ package com.wuhao028.pokedex.model
 
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
-import org.json.JSONObject
+import java.io.Serializable
 
 /**
  *Created by WuHao028 on 31/10/18
@@ -14,5 +14,5 @@ data class Pokemon(val base: JsonObject,
                    val jname: String,
                    val id: String,
                    val skills: JsonObject,
-                   val type: JsonArray)
+                   val type: JsonArray) : Serializable
 
