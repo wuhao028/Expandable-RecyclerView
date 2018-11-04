@@ -9,7 +9,8 @@ import com.wuhao028.pokedex.DataManager
 import com.wuhao028.pokedex.R
 import com.wuhao028.pokedex.`interface`.RecyclerListener
 import com.wuhao028.pokedex.model.Pokemon
-import com.wuhao028.pokedex.util.getTypeImageRes
+import com.wuhao028.pokedex.util.getTypeBackground
+import com.wuhao028.pokedex.util.getTypeText
 
 /**
  *Created by WuHao028 on 4/11/18
@@ -71,9 +72,12 @@ class ExpandableListAdapter(var context: Context,
         val poke_title = convertView?.findViewById<TextView>(R.id.poke_name)
         val poke_no = convertView?.findViewById<TextView>(R.id.poke_no)
         val poke_image = convertView?.findViewById<ImageView>(R.id.poke_image)
-        val poke_type_one = convertView?.findViewById<ImageView>(R.id.poke_type_one)
-        val poke_type_two = convertView?.findViewById<ImageView>(R.id.poke_type_two)
-        poke_title?.text = getChild(groupPosition,childPosition)?.ename + " " +childPosition
+        val poke_type_one = convertView?.findViewById<TextView>(R.id.poke_type_one)
+        val poke_type_two = convertView?.findViewById<TextView>(R.id.poke_type_two)
+//        val poke_type_view_one = convertView?.findViewById<LinearLayout>(R.id.poke_type_view_one)
+//        val poke_type_view_two = convertView?.findViewById<LinearLayout>(R.id.poke_type_view_two)
+
+        poke_title?.text = getChild(groupPosition,childPosition)?.ename
         poke_no?.text = "# "+getChild(groupPosition,childPosition)?.id
         poke_image?.setImageResource(DataManager.instance.getDrawableID(getChild(groupPosition,childPosition)?.ename))
 
@@ -81,19 +85,21 @@ class ExpandableListAdapter(var context: Context,
             listener.onClick(convertView,getChild(groupPosition,childPosition)?.id?.toInt() - 1)
         }
         val jasonArray = getChild(groupPosition,childPosition)?.type
-
         if(jasonArray?.size() == 1) {
             poke_type_one?.visibility= View.VISIBLE
             poke_type_two?.visibility = View.INVISIBLE
-            poke_type_one?.setImageResource(getTypeImageRes(jasonArray[0].toString().replace("\"","")))
+            poke_type_one?.setBackgroundResource(getTypeBackground(jasonArray[0].toString().replace("\"","")))
+            poke_type_one?.setText(getTypeText(jasonArray[0].toString().replace("\"","")))
         }
         if(jasonArray?.size() == 2){
             poke_type_one?.visibility = View.VISIBLE
             poke_type_two?.visibility = View.VISIBLE
-            poke_type_one?.setImageResource(getTypeImageRes(jasonArray[0].toString().replace("\"","")))
-            poke_type_two?.setImageResource(getTypeImageRes(jasonArray[1].toString().replace("\"","")))
-        }
+            poke_type_one?.setText(getTypeText(jasonArray[0].toString().replace("\"","")))
+            poke_type_two?.setText(getTypeText(jasonArray[1].toString().replace("\"","")))
+            poke_type_one?.setBackgroundResource(getTypeBackground(jasonArray[0].toString().replace("\"","")))
+            poke_type_two?.setBackgroundResource(getTypeBackground(jasonArray[1].toString().replace("\"","")))
 
+        }
         return convertView
     }
 

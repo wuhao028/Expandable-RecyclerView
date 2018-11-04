@@ -3,6 +3,7 @@ package com.wuhao028.pokedex.ui
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.view.LayoutInflater
 import android.view.View
 import com.wuhao028.pokedex.Constants
 import com.wuhao028.pokedex.DataManager
@@ -22,12 +23,22 @@ class MainActivity : AppCompatActivity(), RecyclerListener {
         this.getSupportActionBar()?.hide()
         setContentView(R.layout.activity_main)
 
-        val season1: MutableList<Pokemon> = ArrayList()
-        season1.addAll(DataManager.instance.getPokemonData())
+        val gen1: MutableList<Pokemon> = ArrayList()
+        gen1.addAll(DataManager.instance.getPokemonFirstGen())
 
-        header.add("Kanto")
-        body.add(season1)
+        val gen2: MutableList<Pokemon> = ArrayList()
+        gen2.addAll(DataManager.instance.getPokemonSecondGen())
 
+        header.add("Kanto Region")
+        header.add("Johto Region")
+        header.add("Hoenn Region")
+        header.add("Sinnoh Region")
+        body.add(gen1)
+        body.add(gen2)
+        body.add(gen1.subList(0,9))
+        body.add(gen1.subList(0,9))
+
+        expandableListView.addHeaderView(LayoutInflater.from(this).inflate(R.layout.list_header,null))
         expandableListView.setAdapter(ExpandableListAdapter(this,expandableListView, header, body,this))
     }
 

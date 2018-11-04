@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/poke_image"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentLeft="true"
         />
 
@@ -44,20 +44,24 @@
         android:orientation="vertical"
         android:layout_alignParentRight="true">
 
-        <ImageView
+        <TextView
             android:id="@+id/poke_type_one"
-            android:layout_width="45dp"
-            android:layout_weight="1"
+            android:layout_width="60dp"
             android:layout_marginTop="3dp"
-            android:layout_height="18dp"/>
+            android:textSize="11sp"
+            android:gravity="center_horizontal"
+            android:layout_height="20dp"/>
 
-        <ImageView
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp" />
+
+        <TextView
             android:id="@+id/poke_type_two"
-            android:layout_width="45dp"
-            android:layout_weight="1"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="3dp"
-            android:layout_height="18dp"/>
+            android:layout_width="60dp"
+            android:textSize="11sp"
+            android:gravity="center_horizontal"
+            android:layout_height="20dp"/>
     </LinearLayout>
 
     <View

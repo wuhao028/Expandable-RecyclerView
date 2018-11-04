@@ -40,13 +40,19 @@ class DataManager private constructor() {
 
     }
 
-
     fun getPokemonData(): List<Pokemon> {
         return data
     }
 
+    fun getPokemonFirstGen(): List<Pokemon> {
+        return data.subList(0,151)
+    }
+
+    fun getPokemonSecondGen():List<Pokemon>{
+        return data.subList(151,251)
+    }
+
     fun getDrawableID(name: String): Int {
-        //TODO  protection
         return PokeApplication.context.getResources().getIdentifier(name?.filterAlph(), "drawable", PokeApplication.context.getPackageName())
     }
 }
