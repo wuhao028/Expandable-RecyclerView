@@ -3,7 +3,6 @@ package com.wuhao028.pokedex
 import android.content.Context
 import android.util.Log
 import com.google.gson.Gson
-import com.wuhao028.pokedex.model.ParentDataItem
 import com.wuhao028.pokedex.model.Pokemon
 import org.json.JSONArray
 
@@ -49,17 +48,6 @@ class DataManager private constructor() {
     fun getDrawableID(name: String): Int {
         //TODO  protection
         return PokeApplication.context.getResources().getIdentifier(name?.filterAlph(), "drawable", PokeApplication.context.getPackageName())
-    }
-
-    fun getPokemonData2(): MutableList<ParentDataItem> {
-        val dummyDataItems: MutableList<ParentDataItem> = ArrayList()
-        var childDataItems: MutableList<Pokemon>
-
-        childDataItems = ArrayList()
-        childDataItems.addAll(instance.getPokemonData())
-        val dummyParentDataItem = ParentDataItem("Kanto Region", childDataItems)
-        dummyDataItems.add(dummyParentDataItem)
-        return dummyDataItems
     }
 }
 
