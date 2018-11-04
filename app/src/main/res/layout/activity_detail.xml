@@ -3,20 +3,27 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/pokeimage"
-        android:layout_width="150dp"
+    <RelativeLayout
+        android:id="@+id/poke_image_view"
+        android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        ></ImageView>
+        android:background="@drawable/sunburst">
+
+        <ImageView
+            android:id="@+id/pokeimage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            ></ImageView>
+
+    </RelativeLayout>
+
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/gainsboro"
-        android:layout_below="@+id/pokeimage"
-        android:layout_marginTop="10dp"
+        android:layout_below="@+id/poke_image_view"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         />
@@ -25,7 +32,7 @@
         android:id="@+id/pokename"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/pokeimage"
+        android:layout_below="@+id/poke_image_view"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"

@@ -11,209 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ba8f1d0-0ce9-4e80-a315-defe8c834d4a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/aipom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ampharos.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ariados.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/azumarill.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/bayleef.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/bellossom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/blissey.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/celebi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/chikorita.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/chinchou.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/cleffa.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/corsola.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/crobat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/croconaw.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/cyndaquil.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/delibird.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/donphan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/dunsparce.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/elekid.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/entei.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/espeon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/feraligatr.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/flaaffy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/forretress.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/furret.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/girafarig.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/gligar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/granbull.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdaipom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdampharos.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdariados.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdazumarill.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdbayleef.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdbellossom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdblissey.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdcelebi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdchikorita.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdchinchou.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdcleffa.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdcorsola.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdcrobat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdcroconaw.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdcyndaquil.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hddelibird.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hddonphan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hddunsparce.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdelekid.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdentei.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdespeon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdferaligatr.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdflaaffy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdforretress.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdfurret.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdgirafarig.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdgligar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdgranbull.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdheracross.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdhitmontop.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdhooh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdhoothoot.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdhoppip.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdhoundoom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdhoundour.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdigglybuff.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdjumpluff.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdkingdra.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdlanturn.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdlarvitar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdledian.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdledyba.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdlugia.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdmagby.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdmagcargo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdmantine.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdmareep.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdmarill.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdmeganium.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdmiltank.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdmisdreavus.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdmurkrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdnatu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdnoctowl.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdoctillery.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdphanpy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdpichu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdpiloswine.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdpineco.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdpolitoed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdporygon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdpupitar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdquagsire.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdquilava.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdqwilfish.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdraikou.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdremoraid.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdscizor.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdsentret.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdshuckle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdskarmory.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdskiploom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdslowking.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdslugma.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdsmeargle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdsmoochum.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdsneasel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdsnubbull.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdspinarak.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdstantler.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdsteelix.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdsudowoodo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdsuicune.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdsunflora.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdsunkern.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdswinub.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdteddiursa.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdtogepi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdtogetic.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdtotodile.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdtyphlosion.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdtyranitar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdtyrogue.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdumbreon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdunown.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdursaring.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdwobbuffet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdwooper.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdxatu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hdyanma.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/heracross.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hitmontop.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hooh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hoothoot.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hoppip.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/houndoom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/houndour.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/igglybuff.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/jumpluff.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/kingdra.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lanturn.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/larvitar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ledian.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ledyba.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/lugia.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/magby.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/magcargo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/mantine.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/mareep.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/marill.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/meganium.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/miltank.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/misdreavus.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/murkrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/natu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/noctowl.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/octillery.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/phanpy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pichu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/piloswine.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pineco.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/politoed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/porygon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pupitar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/quagsire.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/quilava.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/qwilfish.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/raikou.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/remoraid.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/scizor.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/sentret.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/shuckle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/skarmory.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/skiploom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/slowking.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/slugma.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/smeargle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/smoochum.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/sneasel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/snubbull.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/spinarak.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/stantler.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/steelix.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/sudowoodo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/suicune.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/sunflora.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/sunkern.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/swinub.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/teddiursa.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/togepi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/togetic.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/totodile.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/typhlosion.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tyranitar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tyrogue.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/umbreon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/unown.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ursaring.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/wobbuffet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/wooper.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/xatu.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/yanma.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/poke_type_grass.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/search_icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_header.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/SplashActivity.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sunburst.png" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
@@ -224,331 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/pokedex.json" afterPath="$PROJECT_DIR$/app/src/main/assets/pokedex.json" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/DataManager.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/DataManager.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/ExpandableListAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/ExpandableListAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/util/Util.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/util/Util.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/dark.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/dragon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/electric.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fairy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fighting.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fire.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/flying.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ghost.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/grass.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ground.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ice.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/normal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/posion.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/psychic.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rock.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/steel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/water.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/abra.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/abra.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/aerodactyl.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/aerodactyl.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/alakazam.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/alakazam.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/arbok.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/arbok.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/arcanine.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/arcanine.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/articuno.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/articuno.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/beedrill.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/beedrill.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bellsprout.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/bellsprout.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/blastoise.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/blastoise.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bulbasaur.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/bulbasaur.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/butterfree.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/butterfree.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/caterpie.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/caterpie.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/chansey.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/chansey.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/charizard.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/charizard.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/charmander.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/charmander.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/charmeleon.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/charmeleon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/clefable.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/clefable.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/clefairy.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/clefairy.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cloyster.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/cloyster.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cubone.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/cubone.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dewgong.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/dewgong.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/diglett.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/diglett.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ditto.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ditto.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dodrio.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/dodrio.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/doduo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/doduo.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dragonair.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/dragonair.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dragonite.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/dragonite.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dratini.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/dratini.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/drowzee.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/drowzee.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dugtrio.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/dugtrio.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/eevee.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/eevee.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ekans.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ekans.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/electabuzz.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/electabuzz.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/electrode.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/electrode.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/exeggcute.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/exeggcute.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/exeggutor.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/exeggutor.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/farfetchd.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/farfetchd.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fearow.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fearow.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/flareon.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/flareon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gastly.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/gastly.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gengar.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/gengar.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/geodude.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/geodude.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gloom.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/gloom.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/golbat.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/golbat.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/goldeen.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/goldeen.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/golduck.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/golduck.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/golem.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/golem.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/graveler.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/graveler.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/grimer.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/grimer.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/growlithe.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/growlithe.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gyarados.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/gyarados.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/haunter.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/haunter.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdabra.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdabra.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdaerodactyl.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdaerodactyl.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdalakazam.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdalakazam.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdarbok.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdarbok.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdarcanine.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdarcanine.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdarticuno.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdarticuno.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdbeedrill.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdbeedrill.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdbellsprout.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdbellsprout.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdblastoise.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdblastoise.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdbulbasaur.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdbulbasaur.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdbutterfree.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdbutterfree.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdcaterpie.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdcaterpie.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdchansey.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdchansey.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdcharizard.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdcharizard.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdcharmander.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdcharmander.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdcharmeleon.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdcharmeleon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdclefable.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdclefable.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdclefairy.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdclefairy.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdcloyster.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdcloyster.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdcubone.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdcubone.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hddewgong.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hddewgong.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hddiglett.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hddiglett.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdditto.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdditto.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hddodrio.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hddodrio.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hddoduo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hddoduo.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hddragonair.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hddragonair.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hddragonite.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hddragonite.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hddratini.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hddratini.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hddrowzee.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hddrowzee.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hddugtrio.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hddugtrio.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdeevee.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdeevee.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdekans.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdekans.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdelectabuzz.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdelectabuzz.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdelectrode.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdelectrode.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdexeggcute.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdexeggcute.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdexeggutor.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdexeggutor.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdfarfetchd.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdfarfetchd.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdfearow.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdfearow.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdflareon.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdflareon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdgastly.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdgastly.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdgengar.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdgengar.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdgeodude.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdgeodude.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdgloom.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdgloom.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdgolbat.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdgolbat.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdgoldeen.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdgoldeen.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdgolduck.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdgolduck.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdgolem.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdgolem.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdgraveler.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdgraveler.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdgrimer.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdgrimer.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdgrowlithe.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdgrowlithe.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdgyarados.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdgyarados.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdhaunter.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdhaunter.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdhitmonchan.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdhitmonchan.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdhitmonlee.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdhitmonlee.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdhorsea.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdhorsea.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdhypno.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdhypno.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdivysaur.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdivysaur.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdjigglypuff.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdjigglypuff.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdjolteon.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdjolteon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdjynx.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdjynx.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdkabuto.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdkabuto.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdkabutops.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdkabutops.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdkadabra.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdkadabra.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdkakuna.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdkakuna.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdkangaskhan.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdkangaskhan.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdkingler.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdkingler.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdkoffing.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdkoffing.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdkrabby.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdkrabby.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdlapras.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdlapras.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdlickitung.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdlickitung.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmachamp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmachamp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmachoke.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmachoke.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmachop.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmachop.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmagikarp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmagikarp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmagmar.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmagmar.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmagnemite.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmagnemite.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmagneton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmagneton.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmankey.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmankey.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmarowak.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmarowak.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmeowth.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmeowth.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmetapod.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmetapod.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmew.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmew.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmewtwo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmewtwo.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmoltres.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmoltres.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmrmime.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmrmime.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdmuk.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdmuk.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdnidoking.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdnidoking.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdnidoqueen.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdnidoqueen.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdnidoran.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdnidoran.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdnidorina.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdnidorina.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdnidorino.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdnidorino.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdninetales.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdninetales.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdoddish.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdoddish.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdomanyte.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdomanyte.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdomastar.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdomastar.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdonix.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdonix.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdparas.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdparas.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdparasect.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdparasect.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdpersian.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdpersian.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdpidgeot.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdpidgeot.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdpidgeotto.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdpidgeotto.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdpidgey.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdpidgey.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdpikachu.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdpikachu.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdpinsir.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdpinsir.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdpoliwag.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdpoliwag.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdpoliwhirl.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdpoliwhirl.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdpoliwrath.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdpoliwrath.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdponyta.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdponyta.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdporygon.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdporygon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdprimeape.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdprimeape.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdpsyduck.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdpsyduck.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdraichu.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdraichu.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdrapidash.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdrapidash.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdraticate.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdraticate.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdrattata.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdrattata.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdrhydon.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdrhydon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdrhyhorn.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdrhyhorn.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdsandshrew.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdsandshrew.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdsandslash.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdsandslash.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdscyther.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdscyther.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdseadra.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdseadra.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdseaking.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdseaking.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdseel.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdseel.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdshellder.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdshellder.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdslowbro.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdslowbro.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdslowpoke.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdslowpoke.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdsnorlax.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdsnorlax.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdspearow.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdspearow.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdsquirtle.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdsquirtle.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdstarmie.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdstarmie.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdstaryu.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdstaryu.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdtangela.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdtangela.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdtauros.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdtauros.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdtentacool.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdtentacool.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdtentacruel.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdtentacruel.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdvaporeon.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdvaporeon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdvenomoth.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdvenomoth.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdvenonat.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdvenonat.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdvenusaur.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdvenusaur.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdvictreebel.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdvictreebel.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdvileplume.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdvileplume.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdvoltorb.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdvoltorb.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdvulpix.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdvulpix.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdwartortle.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdwartortle.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdweedle.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdweedle.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdweepinbell.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdweepinbell.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdweezing.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdweezing.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdwigglytuff.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdwigglytuff.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdzapdos.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdzapdos.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hdzubat.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hdzubat.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hitmonchan.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hitmonchan.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hitmonlee.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hitmonlee.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/horsea.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/horsea.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/hypno.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hypno.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ivysaur.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ivysaur.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jigglypuff.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/jigglypuff.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jolteon.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/jolteon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jynx.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/jynx.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kabuto.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/kabuto.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kabutops.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/kabutops.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kadabra.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/kadabra.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kakuna.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/kakuna.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kangaskhan.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/kangaskhan.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kingler.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/kingler.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/koffing.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/koffing.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/krabby.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/krabby.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/lapras.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/lapras.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/lickitung.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/lickitung.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/machamp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/machamp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/machoke.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/machoke.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/machop.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/machop.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/magikarp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/magikarp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/magmar.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/magmar.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/magnemite.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/magnemite.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/magneton.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/magneton.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mankey.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/mankey.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/marowak.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/marowak.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/meowth.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/meowth.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/metapod.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/metapod.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mew.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/mew.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mewtwo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/mewtwo.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/moltres.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/moltres.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mrmime.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/mrmime.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/muk.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/muk.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/nidoking.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/nidoking.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/nidoqueen.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/nidoqueen.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/nidoran.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/nidoran.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/nidorina.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/nidorina.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/nidorino.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/nidorino.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ninetales.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ninetales.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/oddish.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/oddish.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/omanyte.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/omanyte.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/omastar.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/omastar.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/onix.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/onix.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/paras.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/paras.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/parasect.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/parasect.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/persian.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/persian.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pidgeot.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/pidgeot.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pidgeotto.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/pidgeotto.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pidgey.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/pidgey.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pikachu.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/pikachu.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pinsir.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/pinsir.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/poliwag.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/poliwag.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/poliwhirl.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/poliwhirl.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/poliwrath.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/poliwrath.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ponyta.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ponyta.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/porygon.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/porygon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/primeape.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/primeape.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/psyduck.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/psyduck.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/raichu.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/raichu.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rapidash.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rapidash.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/raticate.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/raticate.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rattata.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rattata.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rhydon.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rhydon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rhyhorn.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rhyhorn.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sandshrew.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/sandshrew.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sandslash.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/sandslash.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/scyther.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/scyther.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/seadra.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/seadra.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/seaking.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/seaking.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/seel.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/seel.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/shellder.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/shellder.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/slowbro.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/slowbro.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/slowpoke.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/slowpoke.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/snorlax.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/snorlax.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spearow.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/spearow.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/squirtle.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/squirtle.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/starmie.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/starmie.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/staryu.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/staryu.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/tangela.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tangela.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/tauros.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tauros.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/tentacool.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tentacool.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/tentacruel.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tentacruel.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/vaporeon.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/vaporeon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/venomoth.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/venomoth.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/venonat.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/venonat.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/venusaur.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/venusaur.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/victreebel.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/victreebel.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/vileplume.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/vileplume.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/voltorb.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/voltorb.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/vulpix.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/vulpix.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/wartortle.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/wartortle.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/weedle.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/weedle.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/weepinbell.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/weepinbell.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/weezing.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/weezing.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/wigglytuff.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/wigglytuff.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/zapdos.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/zapdos.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/zubat.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/zubat.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_group.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_group.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_item.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -571,6 +46,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DetailActivity.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ExpandableListAdapter.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/ExpandableListAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -591,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_header.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list_header.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_header.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="198">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -640,15 +125,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="activity_detail.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="resourceFile" />
         <option value="layoutResourceFile" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -2783,7 +2281,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_spdef_rectangle.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_speed_rectangle.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_atk_rectangle.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/PokeAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/ParentItem.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/ParentDataItem.kt" />
@@ -2826,6 +2323,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_group.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_header.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" />
       </list>
     </option>
   </component>
@@ -2986,7 +2484,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -3273,14 +2771,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/background_sub_module_text.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/presenter/HomePresenter.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3417,31 +2907,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/DataManager.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
@@ -3688,10 +3159,37 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/SplashActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_header.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="198">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding />
         </state>
       </provider>
