@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         initTab()
         tab_layout.currentTab = mIndex
         switchFragment(mIndex)
-        Log.d("MainActivity","onCreate")
+        Log.d("MainActivity", "onCreate")
 
     }
 

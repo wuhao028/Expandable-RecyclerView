@@ -15,7 +15,7 @@ fun getTypeImageRes(type: String): Int {
         "虫" -> return R.drawable.bug
         "水" -> return R.drawable.water
         "地上" -> return R.drawable.ground
-        "毒" -> return R.drawable.posion
+        "毒" -> return R.drawable.poison
         "妖精" -> return R.drawable.fairy
         "格斗" -> return R.drawable.fighting
         "飞行" -> return R.drawable.flying

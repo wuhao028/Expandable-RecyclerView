@@ -8,7 +8,10 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.webkit.*
+import android.webkit.WebResourceRequest
+import android.webkit.WebSettings
+import android.webkit.WebView
+import android.webkit.WebViewClient
 import com.wuhao028.pokedex.Constants.Companion.NEWS_URL
 import com.wuhao028.pokedex.R
 import kotlinx.android.synthetic.main.fragment_news.*
@@ -54,8 +57,8 @@ class NewsFragment : Fragment() {
         poke_news.loadUrl(NEWS_URL)
         webView = poke_news
 
-        webview_back.setOnClickListener{
-            if(true.equals(poke_news?.canGoBack())){
+        webview_back.setOnClickListener {
+            if (true.equals(poke_news?.canGoBack())) {
                 poke_news.goBack()
             }
         }
