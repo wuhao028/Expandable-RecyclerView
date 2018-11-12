@@ -1,54 +1,129 @@
 package com.wuhao028.pokedex.ui
 
-import android.content.Intent
 import android.os.Bundle
+import android.support.v4.app.Fragment
+import android.support.v4.app.FragmentTransaction
 import android.support.v7.app.AppCompatActivity
-import android.view.LayoutInflater
-import android.view.View
-import com.wuhao028.pokedex.Constants
-import com.wuhao028.pokedex.DataManager
+import android.util.Log
+import com.flyco.tablayout.listener.CustomTabEntity
+import com.flyco.tablayout.listener.OnTabSelectListener
 import com.wuhao028.pokedex.R
-import com.wuhao028.pokedex.`interface`.RecyclerListener
-import com.wuhao028.pokedex.adapter.ExpandableListAdapter
-import com.wuhao028.pokedex.model.Pokemon
-import kotlinx.android.synthetic.main.activity_main.*
+import com.wuhao028.pokedex.model.TabEntity
+import kotlinx.android.synthetic.main.main_view.*
+import java.util.*
 
-class MainActivity : AppCompatActivity(), RecyclerListener {
+/**
+ *Created by WuHao028 on 12/11/18
+ */
 
-    val header: MutableList<String> = ArrayList()
-    val body: MutableList<MutableList<Pokemon>> = ArrayList()
+class MainActivity : AppCompatActivity() {
+
+    private val mTitles = arrayOf("Pokedex", "News", "Tool", "Mine")
+
+    // 未被选中的图标
+    private val mIconUnSelectIds = intArrayOf(R.mipmap.ic_home_normal, R.mipmap.ic_discovery_normal, R.mipmap.ic_hot_normal, R.mipmap.ic_mine_normal)
+    // 被选中的图标
+    private val mIconSelectIds = intArrayOf(R.mipmap.ic_home_selected, R.mipmap.ic_discovery_selected, R.mipmap.ic_hot_selected, R.mipmap.ic_mine_selected)
+
+    private val mTabEntities = ArrayList<CustomTabEntity>()
+
+    private var mHomeFragment: PokedexFragment? = null
+    private var mNewsFragment: NewsFragment? = null
+    private var mHotFragment: PokedexFragment? = null
+    private var mMineFragment: PokedexFragment? = null
+    //默认为0
+    private var mIndex = 0
+    private var mFragmentId = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        if (savedInstanceState != null) {
+            mIndex = savedInstanceState.getInt("currTabIndex")
+        }
         super.onCreate(savedInstanceState)
         this.getSupportActionBar()?.hide()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.main_view)
+        mFragmentId = R.id.fl_container
+        initTab()
+        tab_layout.currentTab = mIndex
+        switchFragment(mIndex)
+        Log.d("MainActivity","onCreate")
 
-        val gen1: MutableList<Pokemon> = ArrayList()
-        gen1.addAll(DataManager.instance.getPokemonFirstGen())
-
-        val gen2: MutableList<Pokemon> = ArrayList()
-        gen2.addAll(DataManager.instance.getPokemonSecondGen())
-
-        header.add("Kanto Region")
-        header.add("Johto Region")
-        header.add("Hoenn Region")
-        header.add("Sinnoh Region")
-        body.add(gen1)
-        body.add(gen2)
-        body.add(gen1.subList(0,9))
-        body.add(gen1.subList(0,9))
-
-        expandableListView.addHeaderView(LayoutInflater.from(this).inflate(R.layout.list_header,null))
-        expandableListView.setAdapter(ExpandableListAdapter(this,expandableListView, header, body,this))
     }
 
-    override fun onClick(view: View?, position: Int?) {
-        if (position != null) {
-            val intent = Intent(this, DetailActivity::class.java)
-            intent.putExtra(Constants.POKEMON_ID, position)
-            this.startActivity(intent)
+    //初始化底部菜单
+    private fun initTab() {
+        (0 until mTitles.size)
+                .mapTo(mTabEntities) { TabEntity(mTitles[it], mIconSelectIds[it], mIconUnSelectIds[it]) }
+        //为Tab赋值
+        tab_layout.setTabData(mTabEntities)
+        tab_layout.setOnTabSelectListener(object : OnTabSelectListener {
+            override fun onTabSelect(position: Int) {
+                //切换Fragment
+                switchFragment(position)
+            }
+
+            override fun onTabReselect(position: Int) {
+
+            }
+        })
+    }
+
+    /**
+     * 切换Fragment
+     * @param position 下标
+     */
+    private fun switchFragment(position: Int) {
+        val transaction = supportFragmentManager.beginTransaction()
+        hideFragments(transaction)
+        when (position) {
+            0 // 首页
+            -> mHomeFragment?.let {
+                transaction.show(it)
+            } ?: PokedexFragment.getInstance(mTitles[position]).let {
+                mHomeFragment = it
+                transaction.add(mFragmentId, it, "home")
+            }
+            1  //新闻
+            -> mNewsFragment?.let {
+                transaction.show(it)
+            } ?: NewsFragment.getInstance(mTitles[position]).let {
+                mNewsFragment = it
+                transaction.add(mFragmentId, it, "discovery")
+            }
+            2  //热门
+            -> mHotFragment?.let {
+                transaction.show(it)
+            } ?: PokedexFragment.getInstance(mTitles[position]).let {
+                mHotFragment = it
+                transaction.add(mFragmentId, it, "hot")
+            }
+            3 //我的
+            -> mMineFragment?.let {
+                transaction.show(it)
+            } ?: PokedexFragment.getInstance(mTitles[position]).let {
+                mMineFragment = it
+                transaction.add(mFragmentId, it, "mine")
+            }
+
+            else -> {
+
+            }
         }
+
+        mIndex = position
+        tab_layout.currentTab = mIndex
+        transaction.commitAllowingStateLoss()
     }
 
+    /**
+     * 隐藏所有的Fragment
+     * @param transaction transaction
+     */
+    private fun hideFragments(transaction: FragmentTransaction) {
+        mHomeFragment?.let { transaction.hide(it as Fragment) }
+        mNewsFragment?.let { transaction.hide(it as Fragment) }
+        mHotFragment?.let { transaction.hide(it as Fragment) }
+        mMineFragment?.let { transaction.hide(it as Fragment) }
+    }
 
 }

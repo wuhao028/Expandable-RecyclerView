@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <RelativeLayout
         android:id="@+id/poke_image_view"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="180dp"
         android:background="@drawable/sunburst">
 
         <ImageView
             android:id="@+id/pokeimage"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_centerInParent="true"
-            ></ImageView>
+            android:layout_centerInParent="true"></ImageView>
 
     </RelativeLayout>
 
@@ -25,8 +24,7 @@
         android:background="@color/gainsboro"
         android:layout_below="@+id/poke_image_view"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        />
+        android:layout_marginRight="20dp" />
 
     <TextView
         android:id="@+id/pokename"
@@ -37,8 +35,7 @@
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Charmander"/>
-
+        android:text="Charmander" />
 
 
     <LinearLayout
@@ -56,18 +53,19 @@
             android:orientation="vertical"
             android:layout_weight="1"
             android:background="@drawable/poke_hp_rectangle">
+
             <TextView
                 android:id="@+id/poke_hp_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="49"/>
+                android:text="49" />
 
             <TextView
                 android:id="@+id/poke_hp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
-                android:text="HP"/>
+                android:text="HP" />
         </LinearLayout>
 
         <!--Atk-->
@@ -78,18 +76,19 @@
             android:orientation="vertical"
             android:layout_weight="1"
             android:background="@drawable/poke_atk_rectangle">
+
             <TextView
                 android:id="@+id/poke_atk_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="49"/>
+                android:text="49" />
 
             <TextView
                 android:id="@+id/poke_atk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
-                android:text="Atk"/>
+                android:text="Atk" />
         </LinearLayout>
 
         <!--Def-->
@@ -100,18 +99,19 @@
             android:orientation="vertical"
             android:layout_weight="1"
             android:background="@drawable/poke_def_rectangle">
+
             <TextView
                 android:id="@+id/poke_def_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="49"/>
+                android:text="49" />
 
             <TextView
                 android:id="@+id/poke_def"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
-                android:text="Def"/>
+                android:text="Def" />
         </LinearLayout>
 
         <!--SP.Atk-->
@@ -122,18 +122,19 @@
             android:orientation="vertical"
             android:layout_weight="1"
             android:background="@drawable/poke_spatk_rectangle">
+
             <TextView
                 android:id="@+id/poke_spatk_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="49"/>
+                android:text="49" />
 
             <TextView
                 android:id="@+id/poke_spatk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
-                android:text="SP.Atk"/>
+                android:text="SP.Atk" />
         </LinearLayout>
 
         <!--SP.Def-->
@@ -144,18 +145,19 @@
             android:orientation="vertical"
             android:layout_weight="1"
             android:background="@drawable/poke_spdef_rectangle">
+
             <TextView
                 android:id="@+id/poke_spdef_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="49"/>
+                android:text="49" />
 
             <TextView
                 android:id="@+id/poke_spdef"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
-                android:text="SP.Def"/>
+                android:text="SP.Def" />
         </LinearLayout>
 
         <!--Speed-->
@@ -166,18 +168,19 @@
             android:orientation="vertical"
             android:layout_weight="1"
             android:background="@drawable/poke_speed_rectangle">
+
             <TextView
                 android:id="@+id/poke_speed_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="49"/>
+                android:text="49" />
 
             <TextView
                 android:id="@+id/poke_speed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
-                android:text="Speed"/>
+                android:text="Speed" />
         </LinearLayout>
 
     </LinearLayout>

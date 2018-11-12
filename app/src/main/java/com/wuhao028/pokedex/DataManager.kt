@@ -45,11 +45,11 @@ class DataManager private constructor() {
     }
 
     fun getPokemonFirstGen(): List<Pokemon> {
-        return data.subList(0,151)
+        return data.subList(0, 151)
     }
 
-    fun getPokemonSecondGen():List<Pokemon>{
-        return data.subList(151,251)
+    fun getPokemonSecondGen(): List<Pokemon> {
+        return data.subList(151, 251)
     }
 
     fun getDrawableID(name: String): Int {

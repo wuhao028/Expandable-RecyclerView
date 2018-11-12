@@ -16,5 +16,6 @@ class Constants private constructor() {
         val SPATK = "Sp.Atk"
         val SPDEF = "Sp.Def"
         val SPEED = "Speed"
+        val NEWS_URL = "https://www.pokemon.com/us/pokemon-news/"
     }
 }
