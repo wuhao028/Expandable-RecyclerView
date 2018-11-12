@@ -82,7 +82,7 @@ class ExpandableListAdapter(var context: Context,
 
         poke_title?.text = getChild(groupPosition, childPosition)?.ename
         poke_no?.text = "# " + getChild(groupPosition, childPosition)?.id
-        poke_image?.setImageResource(DataManager.instance.getDrawableID(getChild(groupPosition, childPosition)?.ename))
+        poke_image?.setImageResource(DataManager.instance.getMipmapID(getChild(groupPosition, childPosition)?.ename))
 
         convertView?.setOnClickListener {
             listener.onClick(convertView, getChild(groupPosition, childPosition)?.id?.toInt() - 1)

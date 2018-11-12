@@ -47,14 +47,20 @@ class PokedexFragment : Fragment(), RecyclerListener {
         val gen2: MutableList<Pokemon> = ArrayList()
         gen2.addAll(DataManager.instance.getPokemonSecondGen())
 
+        val gen3: MutableList<Pokemon> = ArrayList()
+        gen3.addAll(DataManager.instance.getPokemonThirdGen())
+
+        val gen4: MutableList<Pokemon> = ArrayList()
+        gen4.addAll(DataManager.instance.getPokemonFourthGen())
+
         header.add("Kanto Region")
         header.add("Johto Region")
         header.add("Hoenn Region")
         header.add("Sinnoh Region")
         body.add(gen1)
         body.add(gen2)
-        body.add(gen1.subList(0, 9))
-        body.add(gen1.subList(0, 9))
+        body.add(gen3)
+        body.add(gen4)
 
         expandableListView?.addHeaderView(LayoutInflater.from(activity).inflate(R.layout.list_header, null))
         expandableListView?.setAdapter(ExpandableListAdapter(activity, expandableListView, header, body, this))

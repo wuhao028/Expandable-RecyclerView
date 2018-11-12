@@ -52,8 +52,16 @@ class DataManager private constructor() {
         return data.subList(151, 251)
     }
 
-    fun getDrawableID(name: String): Int {
-        return PokeApplication.context.getResources().getIdentifier(name?.filterAlph(), "drawable", PokeApplication.context.getPackageName())
+    fun getPokemonThirdGen(): List<Pokemon> {
+        return data.subList(251, 386)
+    }
+
+    fun getPokemonFourthGen(): List<Pokemon> {
+        return data.subList(386, 493)
+    }
+
+    fun getMipmapID(name: String): Int {
+        return PokeApplication.context.getResources().getIdentifier(name?.filterAlph(), "mipmap", PokeApplication.context.getPackageName())
     }
 }
 

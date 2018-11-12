@@ -11,23 +11,32 @@
         android:layout_width="match_parent"
         android:layout_height="1px"
         />
-    <LinearLayout
-        android:orientation="vertical"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:background="@color/white"
-        android:layout_height="36dp">
+        android:layout_height="42dp">
         <Button
             android:id="@+id/webview_back"
-            android:layout_width="35dp"
-            android:background="@drawable/webview_back"
-            android:layout_height="35dp" />
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/webview_back" />
 
-        <View
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="1px"
-            android:background="@color/lightgrey"></View>
-    </LinearLayout>
+            android:layout_height="40dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="Poké News"/>
 
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/lightgrey"></View>
 
     <WebView
         android:id="@+id/poke_news"
