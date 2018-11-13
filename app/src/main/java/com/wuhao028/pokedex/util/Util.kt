@@ -81,3 +81,29 @@ fun getTypeBackground(type: String): Int {
         else -> return 0
     }
 }
+
+
+fun getTextColor(type: String): String {
+    var str = type.replace("\"", "")
+    when (str) {
+        "草" -> return "#7bc657"
+        "电" -> return "#f7ce43"
+        "一般" -> return "#a8a77a"
+        "虫" -> return "#a8b631"
+        "水" -> return "#6a92ed"
+        "地上" -> return "#dfbf6e"
+        "毒" -> return "#9f449e"
+        "妖精" -> return "#ec9aac"
+        "格斗" -> return "#be312d"
+        "飞行" -> return "#a893ed"
+        "岩石" -> return "#b79f41"
+        "幽灵" -> return "#705a96"
+        "钢" -> return "#b8b8cf"
+        "炎" -> return "#ee803b"
+        "超能" -> return "#f65b89"
+        "冰" -> return "#9ad8d7"
+        "龙" -> return "#7043f4"
+        "恶" -> return "#705849"
+        else -> return "#000000"
+    }
+}

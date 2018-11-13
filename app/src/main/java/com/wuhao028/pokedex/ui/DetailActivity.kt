@@ -1,5 +1,6 @@
 package com.wuhao028.pokedex.ui
 
+import android.graphics.Color
 import android.opengl.Visibility
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -8,6 +9,7 @@ import android.view.View.VISIBLE
 import com.wuhao028.pokedex.Constants
 import com.wuhao028.pokedex.DataManager
 import com.wuhao028.pokedex.R
+import com.wuhao028.pokedex.util.getTextColor
 import com.wuhao028.pokedex.util.getTypeImageRes
 import com.wuhao028.pokedex.util.getTypeText
 import kotlinx.android.synthetic.main.activity_detail.*
@@ -27,7 +29,8 @@ class DetailActivity : AppCompatActivity() {
 
         id = getIntent().getIntExtra(Constants.POKEMON_ID, 0)
         var pokemon = DataManager.instance.getPokemonData().get(id)
-        pokename.setText(pokemon.ename)
+        var realId = id + 1
+        pokename.setText("#"+realId+"  "+pokemon.ename)
         pokeimage.setImageResource(DataManager.instance.getMipmapID("hd" + pokemon.ename))
 
         var baseObject = pokemon.base
@@ -59,6 +62,8 @@ class DetailActivity : AppCompatActivity() {
 
         jp_name.setText(pokemon.jname)
         cn_name.setText(pokemon.cname)
+        base_stats_title.setTextColor(Color.parseColor(getTextColor(typeArray[0].toString())))
+        base_move.setTextColor(Color.parseColor(getTextColor(typeArray[0].toString())))
 
     }
 }

@@ -137,11 +137,22 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp" />
 
+    <TextView
+        android:id="@+id/base_stats_title"
+        android:layout_below="@+id/gapline_two"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Base Stats"/>
+
     <LinearLayout
+        android:id="@+id/base_stats"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_below="@+id/gapline_two"
-        android:layout_marginTop="10dp"
+        android:layout_below="@+id/base_stats_title"
         android:orientation="horizontal">
 
         <!--HP-->
@@ -295,5 +306,17 @@
         </LinearLayout>
 
     </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/base_move"
+        android:layout_below="@+id/base_stats"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Moves"/>
 
 </RelativeLayout>
