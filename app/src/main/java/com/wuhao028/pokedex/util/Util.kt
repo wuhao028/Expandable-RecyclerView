@@ -8,7 +8,8 @@ import com.wuhao028.pokedex.R
 
 
 fun getTypeImageRes(type: String): Int {
-    when (type) {
+    var str = type.replace("\"", "")
+    when (str) {
         "草" -> return R.drawable.grass
         "电" -> return R.drawable.electric
         "一般" -> return R.drawable.normal
@@ -32,7 +33,8 @@ fun getTypeImageRes(type: String): Int {
 }
 
 fun getTypeText(type: String): String {
-    when (type) {
+    var str = type.replace("\"", "")
+    when (str) {
         "草" -> return "  grass  "
         "电" -> return "  electric  "
         "一般" -> return "  normal  "
@@ -56,7 +58,8 @@ fun getTypeText(type: String): String {
 }
 
 fun getTypeBackground(type: String): Int {
-    when (type) {
+    var str = type.replace("\"", "")
+    when (str) {
         "草" -> return R.drawable.poke_type_grass
         "电" -> return R.drawable.poke_type_electric
         "一般" -> return R.drawable.poke_type_normal

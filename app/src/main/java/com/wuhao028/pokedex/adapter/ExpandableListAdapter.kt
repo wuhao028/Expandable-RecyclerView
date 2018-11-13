@@ -91,16 +91,16 @@ class ExpandableListAdapter(var context: Context,
         if (jasonArray?.size() == 1) {
             poke_type_one?.visibility = View.VISIBLE
             poke_type_two?.visibility = View.INVISIBLE
-            poke_type_one?.setBackgroundResource(getTypeBackground(jasonArray[0].toString().replace("\"", "")))
-            poke_type_one?.setText(getTypeText(jasonArray[0].toString().replace("\"", "")))
+            poke_type_one?.setBackgroundResource(getTypeBackground(jasonArray[0].toString()))
+            poke_type_one?.setText(getTypeText(jasonArray[0].toString()))
         }
         if (jasonArray?.size() == 2) {
             poke_type_one?.visibility = View.VISIBLE
             poke_type_two?.visibility = View.VISIBLE
-            poke_type_one?.setText(getTypeText(jasonArray[0].toString().replace("\"", "")))
-            poke_type_two?.setText(getTypeText(jasonArray[1].toString().replace("\"", "")))
-            poke_type_one?.setBackgroundResource(getTypeBackground(jasonArray[0].toString().replace("\"", "")))
-            poke_type_two?.setBackgroundResource(getTypeBackground(jasonArray[1].toString().replace("\"", "")))
+            poke_type_one?.setText(getTypeText(jasonArray[0].toString()))
+            poke_type_two?.setText(getTypeText(jasonArray[1].toString()))
+            poke_type_one?.setBackgroundResource(getTypeBackground(jasonArray[0].toString()))
+            poke_type_two?.setBackgroundResource(getTypeBackground(jasonArray[1].toString()))
 
         }
         return convertView

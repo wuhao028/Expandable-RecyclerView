@@ -1,10 +1,15 @@
 package com.wuhao028.pokedex.ui
 
+import android.opengl.Visibility
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.view.View.GONE
+import android.view.View.VISIBLE
 import com.wuhao028.pokedex.Constants
 import com.wuhao028.pokedex.DataManager
 import com.wuhao028.pokedex.R
+import com.wuhao028.pokedex.util.getTypeImageRes
+import com.wuhao028.pokedex.util.getTypeText
 import kotlinx.android.synthetic.main.activity_detail.*
 
 /**
@@ -32,5 +37,28 @@ class DetailActivity : AppCompatActivity() {
         poke_spatk_value.setText(baseObject.get(Constants.SPATK).toString())
         poke_spdef_value.setText(baseObject.get(Constants.SPDEF).toString())
         poke_speed_value.setText(baseObject.get(Constants.SPEED).toString())
+
+        val typeArray = pokemon.type
+        if(typeArray.size() == 1){
+            poke_type_image_one.setImageResource(getTypeImageRes(typeArray[0].toString()))
+            poke_type_word_one.setText(getTypeText(typeArray[0].toString().replace(" ","")).toUpperCase())
+            poke_type_image_two.visibility = GONE
+            poke_type_image_one.visibility = VISIBLE
+            poke_type_word_one.visibility = VISIBLE
+            poke_type_word_two.visibility = GONE
+        }else if(typeArray.size() == 2){
+            poke_type_image_one.setImageResource(getTypeImageRes(typeArray[0].toString()))
+            poke_type_image_two.setImageResource(getTypeImageRes(typeArray[1].toString()))
+            poke_type_word_one.setText(getTypeText(typeArray[0].toString().replace(" ","")).toUpperCase())
+            poke_type_word_two.setText(getTypeText(typeArray[1].toString().replace(" ","")).toUpperCase())
+            poke_type_image_one.visibility = VISIBLE
+            poke_type_image_two.visibility = VISIBLE
+            poke_type_word_one.visibility = VISIBLE
+            poke_type_word_two.visibility = VISIBLE
+        }
+
+        jp_name.setText(pokemon.jname)
+        cn_name.setText(pokemon.cname)
+
     }
 }
