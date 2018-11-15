@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <RelativeLayout
         android:id="@+id/poke_image_view"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="116dp"
         android:background="@drawable/sunburst">
-
         <ImageView
             android:id="@+id/pokeimage"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
             android:layout_centerInParent="true"></ImageView>
-
     </RelativeLayout>
-
 
     <View
         android:layout_width="match_parent"
@@ -31,109 +29,110 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/poke_image_view"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="Charmander" />
 
     <LinearLayout
-        android:id="@+id/type_view"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_centerHorizontal="true"
+        android:id="@+id/poke_type_and_jpname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
         android:layout_below="@+id/pokename"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/poke_type_image_one"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_weight="1" />
+        <!--日文名称-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <View
-            android:layout_width="10dp"
-            android:layout_height="30dp"
-            android:layout_weight="1" />
+            <TextView
+                android:id="@+id/jp_name"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:paddingTop="10dp" />
 
-        <ImageView
-            android:id="@+id/poke_type_image_two"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_weight="1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="12sp"
+                android:text="Japanese" />
+        </LinearLayout>
+
+        <!--属性及其图片1-->
+        <LinearLayout
+            android:id="@+id/type_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/poke_type_image_one"
+                android:layout_width="26dp"
+                android:layout_height="26dp"/>
+
+            <TextView
+                android:id="@+id/poke_type_word_one"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textColor="@color/grey"
+                android:textSize="10sp" />
+        </LinearLayout>
+        <!--属性及其图片2-->
+        <LinearLayout
+            android:id="@+id/type_and_image_two_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/poke_type_image_two"
+                android:layout_width="26dp"
+                android:layout_height="26dp"/>
+
+            <TextView
+                android:id="@+id/poke_type_word_two"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textColor="@color/grey"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <!--中文名称-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/cn_name"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="12sp"
+                android:text="Chinese" />
+        </LinearLayout>
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/jp_name"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_toLeftOf="@+id/type_view"
-        android:layout_below="@+id/pokename"
-        android:layout_marginRight="45dp"
-        android:paddingTop="15dp"/>
-
-    <TextView
-        android:id="@+id/cn_name"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_toRightOf="@+id/type_view"
-        android:layout_below="@+id/pokename"
-        android:layout_marginLeft="45dp"
-        android:paddingTop="15dp"/>
-
-
-    <LinearLayout
-        android:id="@+id/type_view_word"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/type_view">
-
-        <TextView
-            android:id="@+id/poke_type_word_one"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:layout_weight="1"
-            android:textColor="@color/grey"
-            android:textSize="12sp" />
-
-        <TextView
-            android:id="@+id/poke_type_word_two"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:layout_weight="1"
-            android:textColor="@color/grey"
-            android:textSize="12sp" />
-
-    </LinearLayout>
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_toLeftOf="@+id/type_view_word"
-        android:layout_below="@+id/type_view"
-        android:layout_marginRight="30dp"
-        android:paddingBottom="10dp"
-        android:text="Japanese" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_toRightOf="@+id/type_view_word"
-        android:layout_below="@+id/type_view"
-        android:layout_marginLeft="30dp"
-        android:paddingBottom="10dp"
-        android:text="Chinese" />
-
 
     <View
         android:id="@+id/gapline_two"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/gainsboro"
-        android:layout_below="@+id/type_view_word"
+        android:layout_below="@+id/poke_type_and_jpname"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp" />
 
@@ -144,9 +143,9 @@
         android:layout_height="30dp"
         android:layout_marginLeft="20dp"
         android:textSize="20sp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:textStyle="bold"
-        android:text="Base Stats"/>
+        android:text="Base Stats" />
 
     <LinearLayout
         android:id="@+id/base_stats"
@@ -307,6 +306,15 @@
 
     </LinearLayout>
 
+    <View
+        android:id="@+id/gapline_three"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gainsboro"
+        android:layout_below="@+id/base_stats"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
 
     <TextView
         android:id="@+id/base_move"
@@ -315,8 +323,26 @@
         android:layout_height="30dp"
         android:layout_marginLeft="20dp"
         android:textSize="20sp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:textStyle="bold"
-        android:text="Moves"/>
+        android:text="Moves" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/base_move"
+        app:tabIndicatorColor="#ADBE107E"
+        app:tabIndicatorHeight="0dp"
+        app:tabMode="scrollable"
+        app:tabPadding="0dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabs"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
 
 </RelativeLayout>

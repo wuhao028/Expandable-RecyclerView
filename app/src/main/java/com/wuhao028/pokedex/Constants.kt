@@ -9,6 +9,7 @@ class Constants private constructor() {
     companion object {
 
         val POKEMON_JSON = "pokedex.json"
+        val SKILL_JSON = "skills.json"
         val POKEMON_ID = "pokeid"
         val ATTACK = "Attack"
         val DEFENSE = "Defense"

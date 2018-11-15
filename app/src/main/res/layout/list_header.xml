@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="42dp"
     android:background="@color/white"
@@ -11,8 +10,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="10dp"
         android:layout_centerVertical="true"
-        android:background="@drawable/search_icon"
-        />
+        android:background="@drawable/search_icon" />
 
     <TextView
         android:id="@+id/poke_header_text"
@@ -20,13 +18,12 @@
         android:layout_height="40dp"
         android:textSize="18sp"
         android:gravity="center"
-        android:text="Pokédex"/>
+        android:text="Pokédex" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/gainsboro"
-        android:layout_below="@+id/poke_header_text"
-        />
+        android:layout_below="@+id/poke_header_text" />
 
 </RelativeLayout>

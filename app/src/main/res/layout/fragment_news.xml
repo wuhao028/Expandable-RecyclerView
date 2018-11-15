@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -9,12 +8,13 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:id="@+id/poke_news_progress_bar"
         android:layout_width="match_parent"
-        android:layout_height="1px"
-        />
+        android:layout_height="1px" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:background="@color/white"
         android:layout_height="42dp">
+
         <Button
             android:id="@+id/webview_back"
             android:layout_width="30dp"
@@ -28,7 +28,7 @@
             android:layout_height="40dp"
             android:textSize="18sp"
             android:gravity="center"
-            android:text="Poké News"/>
+            android:text="Poké News" />
 
     </RelativeLayout>
 
@@ -42,7 +42,6 @@
         android:id="@+id/poke_news"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
-        ></WebView>
+        android:layout_marginBottom="50dp"></WebView>
 
 </LinearLayout>
