@@ -11,12 +11,13 @@ import com.wuhao028.pokedex.DataManager
 import com.wuhao028.pokedex.R
 import com.wuhao028.pokedex.`interface`.RecyclerListener
 import com.wuhao028.pokedex.adapter.ExpandableListAdapter
+import com.wuhao028.pokedex.model.GenHeader
 import com.wuhao028.pokedex.model.Pokemon
 import kotlinx.android.synthetic.main.fragment_pokedex.*
 
 class PokedexFragment : Fragment(), RecyclerListener {
 
-    val header: MutableList<String> = ArrayList()
+    val header: MutableList<GenHeader> = ArrayList()
     val body: MutableList<MutableList<Pokemon>> = ArrayList()
     private var mTitle: String? = null
     private var num: Int = 1
@@ -53,10 +54,10 @@ class PokedexFragment : Fragment(), RecyclerListener {
         val gen4: MutableList<Pokemon> = ArrayList()
         gen4.addAll(DataManager.instance.getPokemonFourthGen())
 
-        header.add("Kanto Region")
-        header.add("Johto Region")
-        header.add("Hoenn Region")
-        header.add("Sinnoh Region")
+        header.add(GenHeader(R.mipmap.firstgen_pic,"Kanto Region"))
+        header.add(GenHeader(R.mipmap.secondgen_pic,"Johto Region"))
+        header.add(GenHeader(R.mipmap.thirdgen_pic,"Hoenn Region"))
+        header.add(GenHeader(R.mipmap.fourthgen_pic,"Sinnoh Region"))
         body.add(gen1)
         body.add(gen2)
         body.add(gen3)

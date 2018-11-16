@@ -10,7 +10,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.wuhao028.pokedex.DataManager
 import com.wuhao028.pokedex.R
+import com.wuhao028.pokedex.R.id.generation_image
 import com.wuhao028.pokedex.`interface`.RecyclerListener
+import com.wuhao028.pokedex.model.GenHeader
 import com.wuhao028.pokedex.model.Pokemon
 import com.wuhao028.pokedex.util.getTypeBackground
 import com.wuhao028.pokedex.util.getTypeText
@@ -21,10 +23,10 @@ import com.wuhao028.pokedex.util.getTypeText
 
 class ExpandableListAdapter(var context: Context,
                             var expandableListView: ExpandableListView,
-                            var header: MutableList<String>,
+                            var header: MutableList<GenHeader>,
                             var body: MutableList<MutableList<Pokemon>>,
                             var listener: RecyclerListener) : BaseExpandableListAdapter() {
-    override fun getGroup(groupPosition: Int): String {
+    override fun getGroup(groupPosition: Int): GenHeader {
         return header[groupPosition]
     }
 
@@ -42,9 +44,12 @@ class ExpandableListAdapter(var context: Context,
             val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             convertView = inflater.inflate(R.layout.layout_group, null)
         }
-        val title = convertView?.findViewById<TextView>(R.id.tv_title)
-        title?.text = getGroup(groupPosition)
-        title?.setOnClickListener {
+        val genTitle = convertView?.findViewById<TextView>(R.id.tv_title)
+        val genImage = convertView?.findViewById<ImageView>(R.id.generation_image)
+        genTitle?.text = getGroup(groupPosition).genTitle
+        genImage?.setImageResource(getGroup(groupPosition).genImageId)
+
+        genTitle?.setOnClickListener {
             if (expandableListView.isGroupExpanded(groupPosition))
                 expandableListView.collapseGroup(groupPosition)
             else

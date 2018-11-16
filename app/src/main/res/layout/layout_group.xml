@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="wrap_content">
 
-    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    <ImageView
+        android:id="@+id/generation_image"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"
+        android:background="@mipmap/firstgen_pic" />
+
+    <TextView
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="45dp"
@@ -12,11 +20,13 @@
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
         android:textSize="16sp"
-        android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft" />
+        android:layout_toRightOf="@+id/generation_image"
+        android:layout_marginLeft="10dp"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_below="@+id/tv_title"
         android:background="@color/gainsboro"
         android:layout_marginLeft="45dp" />
-</LinearLayout>
+</RelativeLayout>
