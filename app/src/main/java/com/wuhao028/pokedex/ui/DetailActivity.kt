@@ -1,7 +1,6 @@
 package com.wuhao028.pokedex.ui
 
 import android.graphics.Color
-import android.opengl.Visibility
 import android.os.Bundle
 import android.support.design.widget.TabLayout
 import android.support.v4.app.Fragment
@@ -10,15 +9,16 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import com.wuhao028.pokedex.Constants
+import com.wuhao028.pokedex.Constants.Companion.POKE_ID
+import com.wuhao028.pokedex.Constants.Companion.SKILL
 import com.wuhao028.pokedex.DataManager
 import com.wuhao028.pokedex.R
-import com.wuhao028.pokedex.adapter.MoveAdapter
 import com.wuhao028.pokedex.adapter.MoveFragmentAdapter
 import com.wuhao028.pokedex.util.getTextColor
 import com.wuhao028.pokedex.util.getTypeImageRes
 import com.wuhao028.pokedex.util.getTypeText
 import kotlinx.android.synthetic.main.activity_detail.*
-import java.util.ArrayList
+import java.util.*
 
 /**
  *Created by WuHao028 on 2/11/18
@@ -28,8 +28,8 @@ class DetailActivity : AppCompatActivity() {
 
     private var id: Int = 0
     private var isOk = true
-    private var mTabLayout : TabLayout?= null
-    private var mViewPager : ViewPager?= null
+    private var mTabLayout: TabLayout? = null
+    private var mViewPager: ViewPager? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,7 +39,7 @@ class DetailActivity : AppCompatActivity() {
         id = getIntent().getIntExtra(Constants.POKEMON_ID, 0)
         var pokemon = DataManager.instance.getPokemonData().get(id)
         var realId = id + 1
-        pokename.setText("#"+realId+"  "+pokemon.ename)
+        pokename.setText("#" + realId + "  " + pokemon.ename)
         pokeimage.setImageResource(DataManager.instance.getMipmapID("hd" + pokemon.ename))
 
         var baseObject = pokemon.base
@@ -51,15 +51,15 @@ class DetailActivity : AppCompatActivity() {
         poke_speed_value.setText(baseObject.get(Constants.SPEED).toString())
 
         val typeArray = pokemon.type
-        if(typeArray.size() == 1){
+        if (typeArray.size() == 1) {
             poke_type_image_one.setImageResource(getTypeImageRes(typeArray[0].toString()))
-            poke_type_word_one.setText(getTypeText(typeArray[0].toString().replace(" ","")).toUpperCase())
+            poke_type_word_one.setText(getTypeText(typeArray[0].toString().replace(" ", "")).toUpperCase())
             type_and_image_two_view.visibility = GONE
-        }else if(typeArray.size() == 2){
+        } else if (typeArray.size() == 2) {
             poke_type_image_one.setImageResource(getTypeImageRes(typeArray[0].toString()))
             poke_type_image_two.setImageResource(getTypeImageRes(typeArray[1].toString()))
-            poke_type_word_one.setText(getTypeText(typeArray[0].toString().replace(" ","")).toUpperCase())
-            poke_type_word_two.setText(getTypeText(typeArray[1].toString().replace(" ","")).toUpperCase())
+            poke_type_word_one.setText(getTypeText(typeArray[0].toString().replace(" ", "")).toUpperCase())
+            poke_type_word_two.setText(getTypeText(typeArray[1].toString().replace(" ", "")).toUpperCase())
             type_and_image_two_view.visibility = VISIBLE
         }
 
@@ -68,31 +68,30 @@ class DetailActivity : AppCompatActivity() {
         base_stats_title.setTextColor(Color.parseColor(getTextColor(typeArray[0].toString())))
         base_move.setTextColor(Color.parseColor(getTextColor(typeArray[0].toString())))
 
-
-        val titles = arrayListOf("egg","tutor","level_up","tm","transfer")
+        val titles = arrayListOf("egg", "tutor", "level_up", "tm", "transfer")
         mViewPager = findViewById(R.id.viewpager) as ViewPager
         mTabLayout = findViewById(R.id.tabs) as TabLayout
 
 
         for (i in titles.indices) {
-            mTabLayout!!.addTab(mTabLayout!!.newTab().setText(titles[i]))
+            if (pokemon.skills.get(titles[i]) != null) {
+                mTabLayout!!.addTab(mTabLayout!!.newTab().setText(titles[i]))
+            }
         }
 
         val fragments = ArrayList<Fragment>()
-
         /**
          * 循环遍历添加ViewPager的Fragment
          */
         for (i in titles.indices) {
-            val listFragment = MoveFragment()
-            val bundle = Bundle()
-            val sb = StringBuffer()
-            for (j in 1..8) {
-                sb.append(titles[i]).append(" ")
+            if (pokemon.skills.get(titles[i]) != null) {
+                val listFragment = MoveFragment()
+                val bundle = Bundle()
+                bundle.putString(SKILL, titles[i])
+                bundle.putInt(POKE_ID, id)
+                listFragment.arguments = bundle
+                fragments.add(listFragment)
             }
-            bundle.putString("content", sb.toString())
-            listFragment.arguments = bundle
-            fragments.add(listFragment)
         }
 
         val mFragmentAdapteradapter = MoveFragmentAdapter(supportFragmentManager, fragments, titles)

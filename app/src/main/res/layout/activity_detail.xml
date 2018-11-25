@@ -70,7 +70,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:orientation="vertical">
             <ImageView
                 android:id="@+id/poke_type_image_one"
@@ -81,7 +81,6 @@
                 android:id="@+id/poke_type_word_one"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
-                android:textColor="@color/grey"
                 android:textSize="10sp" />
         </LinearLayout>
         <!--属性及其图片2-->
@@ -90,7 +89,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:orientation="vertical">
             <ImageView
                 android:id="@+id/poke_type_image_two"
@@ -101,7 +100,6 @@
                 android:id="@+id/poke_type_word_two"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
-                android:textColor="@color/grey"
                 android:textSize="10sp" />
         </LinearLayout>
 

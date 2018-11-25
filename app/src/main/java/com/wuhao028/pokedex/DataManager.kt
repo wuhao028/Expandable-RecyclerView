@@ -51,8 +51,8 @@ class DataManager private constructor() {
             Log.e(tag, e.message)
         }
         skillData = arrayListOf()
-        for(t in 0..skillsArray.length()-1){
-            skillData.add(gson.fromJson(skillsArray[t].toString(),Skill::class.java))
+        for (t in 0..skillsArray.length() - 1) {
+            skillData.add(gson.fromJson(skillsArray[t].toString(), Skill::class.java))
         }
 
     }
@@ -81,11 +81,11 @@ class DataManager private constructor() {
         return PokeApplication.context.getResources().getIdentifier(name?.filterAlph(), "mipmap", PokeApplication.context.getPackageName())
     }
 
-    fun getSkill(id: Int):Skill{
-        if(id>skillData.size){
-            return Skill("","","","","",0,0,0,"")
-        }else
-        return skillData[id]
+    fun getSkill(id: Int): Skill {
+        if (id > skillData.size) {
+            return Skill("", "", "", "", "", 0, 0, 0, "")
+        } else
+            return skillData[id]
     }
 
 }

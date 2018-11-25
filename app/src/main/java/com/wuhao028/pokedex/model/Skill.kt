@@ -13,4 +13,4 @@ data class Skill(val accuracy: String,
                  val power: Int,
                  val pp: Int,
                  val type: String
-                 )
+)

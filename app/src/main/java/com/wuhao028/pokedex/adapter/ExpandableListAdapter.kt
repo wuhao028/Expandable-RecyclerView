@@ -10,7 +10,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.wuhao028.pokedex.DataManager
 import com.wuhao028.pokedex.R
-import com.wuhao028.pokedex.R.id.generation_image
 import com.wuhao028.pokedex.`interface`.RecyclerListener
 import com.wuhao028.pokedex.model.GenHeader
 import com.wuhao028.pokedex.model.Pokemon

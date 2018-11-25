@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentStatePagerAdapter
  *Created by WuHao028 on 15/11/18
  */
 
-class MoveFragmentAdapter(fm : FragmentManager, val mFragments : List<Fragment>, val mTitles : List<String>) : FragmentStatePagerAdapter(fm) {
+class MoveFragmentAdapter(fm: FragmentManager, val mFragments: List<Fragment>, val mTitles: List<String>) : FragmentStatePagerAdapter(fm) {
 
 
     override fun getItem(position: Int): Fragment {
