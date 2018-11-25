@@ -15,16 +15,15 @@
 
 
         <ImageView
+            android:id="@+id/skill_image"
             android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@drawable/dragon" />
+            android:layout_height="30dp"/>
 
         <TextView
-            android:id="@+id/textview"
+            android:id="@+id/skill_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="12dp"
-            android:layout_marginTop="8dp"
             android:gravity="center_vertical"
             android:textSize="18sp"
             android:maxLines="2"

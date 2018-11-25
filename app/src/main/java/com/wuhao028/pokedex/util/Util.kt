@@ -25,6 +25,7 @@ fun getTypeImageRes(type: String): Int {
         "钢" -> return R.drawable.steel
         "炎" -> return R.drawable.fire
         "超能" -> return R.drawable.psychic
+        "超能力" -> return R.drawable.psychic
         "冰" -> return R.drawable.ice
         "龙" -> return R.drawable.dragon
         "恶" -> return R.drawable.normal
