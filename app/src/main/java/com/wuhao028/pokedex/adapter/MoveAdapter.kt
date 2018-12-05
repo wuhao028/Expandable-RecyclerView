@@ -30,11 +30,17 @@ class MoveAdapter(val mContext: Context, val content: String) : RecyclerView.Ada
 
     override fun onBindViewHolder(holder: MoveAdapter.ViewHolder?, position: Int) {
         val view = holder!!.mView
-        val textview = view.findViewById<TextView>(R.id.skill_name)
+        val nameView = view.findViewById<TextView>(R.id.skill_name)
         val imageView = view.findViewById<ImageView>(R.id.skill_image)
+        val powerView = view.findViewById<TextView>(R.id.skill_power)
+        val accView = view.findViewById<TextView>(R.id.skill_acc)
+        val ppView = view.findViewById<TextView>(R.id.skill_pp)
         val skill = DataManager.instance.getSkill(JSONArray(content)[position].toString().toInt())
-        textview.text = skill.ename
+        nameView.text = skill.ename
         imageView.setImageResource(getTypeImageRes(skill.type))
+        powerView.text = skill.power?.toString()
+        accView.text = skill.accuracy
+        ppView.text = skill.pp?.toString()
 
         view.setOnClickListener {
             // val intent = Intent(mContext, SecondActivity::class.java)
