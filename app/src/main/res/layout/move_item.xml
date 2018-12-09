@@ -16,37 +16,34 @@
         <ImageView
             android:id="@+id/skill_image"
             android:layout_width="30dp"
-            android:layout_height="30dp"/>
+            android:layout_height="30dp" />
 
         <TextView
             android:id="@+id/skill_name"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:layout_marginStart="20dp"/>
+            android:layout_marginStart="20dp" />
 
         <TextView
             android:id="@+id/skill_power"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:textSize="18sp"
-            />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/skill_acc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:layout_marginStart="30dp"
-            />
+            android:layout_marginStart="30dp" />
 
         <TextView
             android:id="@+id/skill_pp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:layout_marginStart="30dp"
-            />
+            android:layout_marginStart="30dp" />
     </LinearLayout>
 </android.support.v7.widget.CardView>

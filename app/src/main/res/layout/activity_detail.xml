@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="116dp"
         android:background="@drawable/sunburst">
+
         <ImageView
             android:id="@+id/pokeimage"
             android:layout_width="110dp"
@@ -72,10 +73,11 @@
             android:gravity="center"
             android:layout_marginTop="5dp"
             android:orientation="vertical">
+
             <ImageView
                 android:id="@+id/poke_type_image_one"
                 android:layout_width="26dp"
-                android:layout_height="26dp"/>
+                android:layout_height="26dp" />
 
             <TextView
                 android:id="@+id/poke_type_word_one"
@@ -91,10 +93,11 @@
             android:gravity="center"
             android:layout_marginTop="5dp"
             android:orientation="vertical">
+
             <ImageView
                 android:id="@+id/poke_type_image_two"
                 android:layout_width="26dp"
-                android:layout_height="26dp"/>
+                android:layout_height="26dp" />
 
             <TextView
                 android:id="@+id/poke_type_word_two"
@@ -110,6 +113,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/cn_name"
                 android:layout_width="wrap_content"

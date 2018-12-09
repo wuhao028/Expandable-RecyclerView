@@ -11,6 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ba8f1d0-0ce9-4e80-a315-defe8c834d4a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/presenter/SearchPresenter.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/ClearEditText.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/SearchActivity.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/et_cursor.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/et_round_bg.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_search_result.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_action_clear.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_action_search_small.png" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
@@ -21,8 +29,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/MoveAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/MoveAdapter.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/Extensions.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/Extensions.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/PokedexFragment.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/PokedexFragment.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_move.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_move.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_group.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_group.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_header.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_header.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/move_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/move_item.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,68 +62,87 @@
       <file leaf-file-name="DetailActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="44" column="34" lean-forward="false" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+            <state relative-caret-position="-200">
+              <caret line="56" column="53" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skills.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/skills.json">
+      <file leaf-file-name="PokedexFragment.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/PokedexFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="1496" column="30" lean-forward="false" selection-start-line="1496" selection-start-column="30" selection-end-line="1496" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Util.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/util/Util.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="move_item.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/move_item.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoveAdapter.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/MoveAdapter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="66">
+              <caret line="64" column="22" lean-forward="false" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
               <folding>
-                <element signature="e#38#412#0" expanded="true" />
+                <element signature="e#33#634#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_move.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_move.xml">
+      <file leaf-file-name="SearchActivity.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/SearchActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+              <folding>
+                <element signature="e#33#596#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout_search_result.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_search_result.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer2">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="et_round_bg.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/et_round_bg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="et_cursor.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/et_cursor.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsFragment.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/NewsFragment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SplashActivity.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/SplashActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -120,8 +152,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -136,6 +168,7 @@
       <find>onBindViewHolder</find>
       <find>slaking</find>
       <find>kines</find>
+      <find>Visibility</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -2255,11 +2288,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_type_fire.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_type_fighting.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_type_water.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_type_flying.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_type_grass.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_type_posion.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_type_electric.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/poke_type_ground.xml" />
@@ -2283,9 +2311,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/NewsFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/ToolFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_news.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_header.xml" />
         <option value="$PROJECT_DIR$/app/src/main/assets/pokedex.json" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/SplashActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/Skill.kt" />
@@ -2297,7 +2323,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/GenHeader.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/GenHeader.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/ExpandableListAdapter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/PokedexFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/Constants.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" />
@@ -2306,6 +2331,14 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_move.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/MoveAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/move_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_header.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/PokedexFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/ClearEditText.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_search_result.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/Extensions.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/SearchActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/presenter/SearchPresenter.kt" />
       </list>
     </option>
   </component>
@@ -2503,7 +2536,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokedex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokedex" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="mipmap-xhdpi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2525,8 +2567,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
@@ -2727,7 +2770,7 @@
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27982953" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27414772" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27414772" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19744319" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2742,7 +2785,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19176136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25142047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25142047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2797,113 +2840,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/2e8041d08283cbbb58ad131617486fc6449f6c85/kotlin-stdlib-1.2.71-sources.jar!/kotlin/text/StringsJVM.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="100" column="32" lean-forward="false" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/items.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1442">
-          <caret line="219" column="15" lean-forward="true" selection-start-line="219" selection-start-column="15" selection-end-line="219" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/poke_type_grass.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/poke_type_electric.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/poke_type_normal.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/poke_type_bug.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/poke_type_water.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/poke_type_ground.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/poke_type_posion.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/poke_type_fairy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/poke_type_fighting.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/poke_type_flying.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/poke_type_rock.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/poke_type_ghost.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -3019,14 +2955,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/PokedexFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/26.0.0/1a71cf8b3d2fda04f8b996dd93835bbc66b2dfb8/support-fragment-26.0.0-sources.jar!/android/support/v4/app/FragmentStatePagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -3091,14 +3019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-736">
-          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/Constants.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -3128,31 +3048,31 @@
         <state relative-caret-position="1156">
           <caret line="68" column="37" lean-forward="false" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
           <folding>
-            <element signature="e#4405#4717#0" expanded="false" />
-            <element signature="e#4723#5086#0" expanded="false" />
-            <element signature="e#5092#10816#0" expanded="false" />
-            <element signature="e#5346#6221#0" expanded="false" />
-            <element signature="e#5751#5950#0" expanded="false" />
-            <element signature="e#5964#6197#0" expanded="false" />
-            <element signature="e#6250#7129#0" expanded="false" />
-            <element signature="e#6656#6856#0" expanded="false" />
-            <element signature="e#6870#7105#0" expanded="false" />
-            <element signature="e#7158#8037#0" expanded="false" />
-            <element signature="e#7564#7764#0" expanded="false" />
-            <element signature="e#7778#8013#0" expanded="false" />
-            <element signature="e#8069#8957#0" expanded="false" />
-            <element signature="e#8477#8679#0" expanded="false" />
-            <element signature="e#8693#8933#0" expanded="false" />
-            <element signature="e#8989#9877#0" expanded="false" />
-            <element signature="e#9397#9599#0" expanded="false" />
-            <element signature="e#9613#9853#0" expanded="false" />
-            <element signature="e#9908#10795#0" expanded="false" />
-            <element signature="e#10316#10518#0" expanded="false" />
-            <element signature="e#10532#10771#0" expanded="false" />
-            <element signature="e#10822#11165#0" expanded="false" />
-            <element signature="e#11171#11521#0" expanded="false" />
-            <element signature="e#11527#11876#0" expanded="false" />
-            <element signature="e#11882#12154#0" expanded="false" />
+            <element signature="e#4411#4723#0" expanded="false" />
+            <element signature="e#4729#5092#0" expanded="false" />
+            <element signature="e#5098#10822#0" expanded="false" />
+            <element signature="e#5352#6227#0" expanded="false" />
+            <element signature="e#5757#5956#0" expanded="false" />
+            <element signature="e#5970#6203#0" expanded="false" />
+            <element signature="e#6256#7135#0" expanded="false" />
+            <element signature="e#6662#6862#0" expanded="false" />
+            <element signature="e#6876#7111#0" expanded="false" />
+            <element signature="e#7164#8043#0" expanded="false" />
+            <element signature="e#7570#7770#0" expanded="false" />
+            <element signature="e#7784#8019#0" expanded="false" />
+            <element signature="e#8075#8963#0" expanded="false" />
+            <element signature="e#8483#8685#0" expanded="false" />
+            <element signature="e#8699#8939#0" expanded="false" />
+            <element signature="e#8995#9883#0" expanded="false" />
+            <element signature="e#9403#9605#0" expanded="false" />
+            <element signature="e#9619#9859#0" expanded="false" />
+            <element signature="e#9914#10801#0" expanded="false" />
+            <element signature="e#10322#10524#0" expanded="false" />
+            <element signature="e#10538#10777#0" expanded="false" />
+            <element signature="e#10828#11171#0" expanded="false" />
+            <element signature="e#11177#11527#0" expanded="false" />
+            <element signature="e#11533#11882#0" expanded="false" />
+            <element signature="e#11888#12160#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3164,22 +3084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22305">
           <caret line="1515" column="0" lean-forward="false" selection-start-line="1515" selection-start-column="0" selection-end-line="1515" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/skills.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="1496" column="30" lean-forward="false" selection-start-line="1496" selection-start-column="30" selection-end-line="1496" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/util/Util.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -3200,14 +3104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MoveFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/DataManager.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
@@ -3216,11 +3112,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/move_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="44" column="34" lean-forward="false" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        <state relative-caret-position="340">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/util/Util.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/skills.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1472" column="21" lean-forward="false" selection-start-line="1472" selection-start-column="21" selection-end-line="1472" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/MoveAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="e#38#412#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3235,25 +3160,160 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/MoveAdapter.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MoveFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <element signature="e#38#412#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/move_item.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="-740">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/NewsFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/SplashActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pokedex.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_header.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/wuhao028/pokedex/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="4349" column="28" lean-forward="false" selection-start-line="4349" selection-start-column="28" selection-end-line="4349" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/DetailActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="56" column="53" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/PokedexFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="64" column="22" lean-forward="false" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding>
+            <element signature="e#33#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/et_round_bg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/ClearEditText.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#33#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_search_result.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/Extensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#30#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/presenter/SearchPresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/et_cursor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/SearchActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <folding>
+            <element signature="e#33#596#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

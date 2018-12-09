@@ -1,6 +1,8 @@
 package com.wuhao028.pokedex
 
+import android.content.Context
 import android.view.View
+import android.widget.Toast
 
 /**
  *Created by WuHao028 on 2/11/18
@@ -20,4 +22,10 @@ fun View.px2dip(pxValue: Float): Int {
 fun String.filterAlph(): String {
     var regex = Regex("[^(A-Za-z)]")
     return this?.replace(regex, "").toLowerCase()
+}
+
+fun Context.showToast(content: String): Toast {
+    val toast = Toast.makeText(PokeApplication.context, content, Toast.LENGTH_SHORT)
+    toast.show()
+    return toast
 }

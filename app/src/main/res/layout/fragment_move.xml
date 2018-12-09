@@ -13,32 +13,31 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
-            android:text="Type"/>
+            android:text="Type" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
-            android:text="Move"/>
+            android:text="Move" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="100dp"
-            android:text="Power"/>
+            android:text="Power" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
-            android:text="Acc."/>
+            android:text="Acc." />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
-            android:text="PP"/>
-
+            android:text="PP" />
 
 
     </LinearLayout>

@@ -14,6 +14,7 @@ import com.wuhao028.pokedex.adapter.ExpandableListAdapter
 import com.wuhao028.pokedex.model.GenHeader
 import com.wuhao028.pokedex.model.Pokemon
 import kotlinx.android.synthetic.main.fragment_pokedex.*
+import kotlinx.android.synthetic.main.list_header.*
 
 class PokedexFragment : Fragment(), RecyclerListener {
 
@@ -64,6 +65,11 @@ class PokedexFragment : Fragment(), RecyclerListener {
         body.add(gen4)
 
         expandableListView?.addHeaderView(LayoutInflater.from(activity).inflate(R.layout.list_header, null))
+        //
+        pokedex_search.setOnClickListener{
+            val intent = Intent(activity, SearchActivity::class.java)
+            this.startActivity(intent)
+        }
         expandableListView?.setAdapter(ExpandableListAdapter(activity, expandableListView, header, body, this))
     }
 
