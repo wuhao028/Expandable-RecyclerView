@@ -28,7 +28,6 @@
                 android:focusable="true"
                 android:focusableInTouchMode="true"
                 android:gravity="center_vertical"
-                android:hint="search_hint_text"
                 android:imeOptions="actionSearch"
                 android:maxLines="1"
                 android:paddingStart="10dp"
@@ -50,22 +49,29 @@
         </RelativeLayout>
     </android.support.v7.widget.Toolbar>
 
-    <TextView
-        android:id="@+id/hint_text"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:id="@+id/hint_layout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="search number"
-        android:gravity="center"
-        android:textSize="18sp"
-        android:layout_below="@+id/search_toolbar"/>
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/search_toolbar">
+
+        <TextView
+            android:id="@+id/hint_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Input the Name or Number"
+            android:textColor="@color/color_lighter_gray"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            />
+
+    </RelativeLayout>
 
         <android.support.v7.widget.RecyclerView
             android:layout_below="@+id/search_toolbar"
             android:id="@+id/search_result_recycler"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="15dp"
-            android:layout_marginStart="15dp" />
-
+            android:layout_height="wrap_content" />
 
 </RelativeLayout>

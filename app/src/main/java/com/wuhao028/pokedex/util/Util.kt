@@ -1,11 +1,14 @@
 package com.wuhao028.pokedex.util
 
+import android.util.Log
 import com.wuhao028.pokedex.R
 
 /**
  *Created by WuHao028 on 2/11/18
  */
 
+
+var LAST_CLICK_TIME = 0L
 
 fun getTypeImageRes(type: String): Int {
     var str = type.replace("\"", "")
@@ -106,5 +109,15 @@ fun getTextColor(type: String): String {
         "龙" -> return "#7043f4"
         "恶" -> return "#705849"
         else -> return "#000000"
+    }
+}
+
+fun isFastClick():Boolean{
+
+     if(System.currentTimeMillis() - LAST_CLICK_TIME > 1000) {
+         LAST_CLICK_TIME = System.currentTimeMillis()
+         return false
+    }else{
+        return true
     }
 }
