@@ -4,6 +4,8 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:fitsSystemWindows="true"
+        android:clipToPadding="true"
         android:id="@+id/welcome_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

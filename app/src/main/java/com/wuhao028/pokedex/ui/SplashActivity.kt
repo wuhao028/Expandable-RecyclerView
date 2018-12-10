@@ -1,8 +1,11 @@
 package com.wuhao028.pokedex.ui
 
 import android.content.Intent
+import android.graphics.Color
+import android.os.Build
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.view.View
 import android.view.Window
 import android.view.animation.AlphaAnimation
 import android.view.animation.Animation
@@ -26,8 +29,11 @@ class SplashActivity : AppCompatActivity() {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         this.getSupportActionBar()?.hide()
         setContentView(R.layout.activity_splash)
-        val window = window
-        window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+        }
+
 
         var welcomePics = arrayOf(R.drawable.welcomeone, R.drawable.welcometwo,
                 R.drawable.welcomethree, R.drawable.welcomefour, R.drawable.welcomefive)
