@@ -20,5 +20,6 @@ class Constants private constructor() {
         val NEWS_URL = "https://www.pokemon.com/us/pokemon-news/"
         val POKE_ID = "ID"
         val SKILL = "skill"
+        val MAX_POKEMON_NUMBER = 494
     }
 }

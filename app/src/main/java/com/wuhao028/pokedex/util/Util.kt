@@ -1,6 +1,5 @@
 package com.wuhao028.pokedex.util
 
-import android.util.Log
 import com.wuhao028.pokedex.R
 
 /**
@@ -112,12 +111,12 @@ fun getTextColor(type: String): String {
     }
 }
 
-fun isFastClick():Boolean{
+fun isFastClick(): Boolean {
 
-     if(System.currentTimeMillis() - LAST_CLICK_TIME > 1000) {
-         LAST_CLICK_TIME = System.currentTimeMillis()
-         return false
-    }else{
+    if (System.currentTimeMillis() - LAST_CLICK_TIME > 1000) {
+        LAST_CLICK_TIME = System.currentTimeMillis()
+        return false
+    } else {
         return true
     }
 }

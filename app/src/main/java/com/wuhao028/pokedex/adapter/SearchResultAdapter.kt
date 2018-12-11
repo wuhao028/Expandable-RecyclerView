@@ -1,7 +1,6 @@
 package com.wuhao028.pokedex.adapter
 
 import android.support.v7.widget.RecyclerView
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -17,11 +16,11 @@ import kotlinx.android.synthetic.main.layout_item.view.*
  *Created by WuHao028 on 10/12/18
  */
 
-class SearchResultAdapter(val mOnItemClickLitener: RecyclerItemClickListenner?,val mDatas: MutableList<Pokemon>): RecyclerView.Adapter<SearchResultAdapter.myHolderView>(){
+class SearchResultAdapter(val mOnItemClickLitener: RecyclerItemClickListenner?, val mDatas: MutableList<Pokemon>) : RecyclerView.Adapter<SearchResultAdapter.myHolderView>() {
 
     override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): myHolderView {
 
-        return myHolderView(LayoutInflater.from(parent?.context).inflate(R.layout.layout_item,parent,false))
+        return myHolderView(LayoutInflater.from(parent?.context).inflate(R.layout.layout_item, parent, false))
     }
 
     override fun onBindViewHolder(holder: myHolderView?, position: Int) {
@@ -34,7 +33,7 @@ class SearchResultAdapter(val mOnItemClickLitener: RecyclerItemClickListenner?,v
 
         mOnItemClickLitener?.let {
             holder?.itemView?.setOnClickListener {
-                if(!isFastClick()) {
+                if (!isFastClick()) {
                     mOnItemClickLitener.onRecyclerViewItemClick(holder?.itemView, id - 1)
                 }
             }
@@ -46,7 +45,7 @@ class SearchResultAdapter(val mOnItemClickLitener: RecyclerItemClickListenner?,v
 
     }
 
-    class myHolderView(view: View): RecyclerView.ViewHolder(view){
+    class myHolderView(view: View) : RecyclerView.ViewHolder(view) {
         val poke_name: TextView
         val poke_no: TextView
         val poke_image: ImageView

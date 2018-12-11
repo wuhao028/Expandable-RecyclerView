@@ -24,7 +24,7 @@ import kotlinx.android.synthetic.main.layout_search_result.*
  */
 
 
-class SearchActivity: AppCompatActivity(), SearchPresenter.PokeSearchView, SearchResultAdapter.RecyclerItemClickListenner {
+class SearchActivity : AppCompatActivity(), SearchPresenter.PokeSearchView, SearchResultAdapter.RecyclerItemClickListenner {
 
     private val mPresenter by lazy { SearchPresenter() }
 
@@ -72,10 +72,10 @@ class SearchActivity: AppCompatActivity(), SearchPresenter.PokeSearchView, Searc
         imm.hideSoftInputFromWindow(mEditText.windowToken, 0)
     }
 
-    override fun setSearchResult(result: MutableList<Pokemon>){
+    override fun setSearchResult(result: MutableList<Pokemon>) {
         search_result_recycler.visibility = View.VISIBLE
         search_result_recycler.layoutManager = LinearLayoutManager(this)
-        search_result_recycler.adapter =  SearchResultAdapter(this, result)
+        search_result_recycler.adapter = SearchResultAdapter(this, result)
         search_result_recycler.setHasFixedSize(true)
     }
 

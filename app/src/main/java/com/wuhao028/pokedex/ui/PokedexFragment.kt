@@ -66,7 +66,7 @@ class PokedexFragment : Fragment(), RecyclerListener {
 
         expandableListView?.addHeaderView(LayoutInflater.from(activity).inflate(R.layout.list_header, null))
         //
-        pokedex_search.setOnClickListener{
+        pokedex_search.setOnClickListener {
             val intent = Intent(activity, SearchActivity::class.java)
             this.startActivity(intent)
         }
