@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/poke_image"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignParentLeft="true" />
 
 
@@ -22,7 +22,7 @@
             android:id="@+id/poke_name"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="80dp"
             android:textSize="16dp"
             android:layout_weight="1" />
 
@@ -30,7 +30,7 @@
             android:id="@+id/poke_no"
             android:layout_width="wrap_content"
             android:layout_weight="1"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="80dp"
             android:layout_height="match_parent" />
     </LinearLayout>
 
@@ -44,14 +44,14 @@
         <TextView
             android:id="@+id/poke_type_one"
             android:layout_width="60dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="6dp"
             android:textSize="11sp"
             android:gravity="center_horizontal"
             android:layout_height="20dp" />
 
         <View
             android:layout_width="60dp"
-            android:layout_height="3dp" />
+            android:layout_height="8dp" />
 
         <TextView
             android:id="@+id/poke_type_two"
@@ -65,5 +65,5 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/gainsboro"
-        android:layout_marginLeft="50dp" />
+        android:layout_marginLeft="70dp" />
 </RelativeLayout>
