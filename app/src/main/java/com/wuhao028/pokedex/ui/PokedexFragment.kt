@@ -55,17 +55,16 @@ class PokedexFragment : Fragment(), RecyclerListener {
         val gen4: MutableList<Pokemon> = ArrayList()
         gen4.addAll(DataManager.instance.getPokemonFourthGen())
 
-        header.add(GenHeader(R.mipmap.firstgen_pic, "Kanto Region"))
-        header.add(GenHeader(R.mipmap.secondgen_pic, "Johto Region"))
-        header.add(GenHeader(R.mipmap.thirdgen_pic, "Hoenn Region"))
-        header.add(GenHeader(R.mipmap.fourthgen_pic, "Sinnoh Region"))
+        header.add(GenHeader(R.mipmap.firstgen_pic, "Kanto Region",151))
+        header.add(GenHeader(R.mipmap.secondgen_pic, "Johto Region",100))
+        header.add(GenHeader(R.mipmap.thirdgen_pic, "Hoenn Region",135))
+        header.add(GenHeader(R.mipmap.fourthgen_pic, "Sinnoh Region",107))
         body.add(gen1)
         body.add(gen2)
         body.add(gen3)
         body.add(gen4)
 
-        expandableListView?.addHeaderView(LayoutInflater.from(activity).inflate(R.layout.list_header, null))
-        //
+        expandableListView?.addHeaderView(LayoutInflater.from(activity?.applicationContext).inflate(R.layout.list_header, null))
         pokedex_search.setOnClickListener {
             val intent = Intent(activity, SearchActivity::class.java)
             this.startActivity(intent)

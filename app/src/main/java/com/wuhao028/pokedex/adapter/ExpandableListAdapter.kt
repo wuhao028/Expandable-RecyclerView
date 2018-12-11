@@ -1,6 +1,7 @@
 package com.wuhao028.pokedex.adapter
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -43,9 +44,11 @@ class ExpandableListAdapter(var context: Context,
             val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             convertView = inflater.inflate(R.layout.layout_group, null)
         }
-        val genTitle = convertView?.findViewById<TextView>(R.id.tv_title)
+        val genTitle = convertView?.findViewById<TextView>(R.id.generation_title)
+        val genTotalNumber = convertView?.findViewById<TextView>(R.id.generation_total_num)
         val genImage = convertView?.findViewById<ImageView>(R.id.generation_image)
         genTitle?.text = getGroup(groupPosition).genTitle
+        genTotalNumber?.text = getGroup(groupPosition).totalNum?.toString()
         genImage?.setImageResource(getGroup(groupPosition).genImageId)
 
         genTitle?.setOnClickListener {
