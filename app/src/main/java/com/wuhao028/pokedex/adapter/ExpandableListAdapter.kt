@@ -1,6 +1,7 @@
 package com.wuhao028.pokedex.adapter
 
 import android.content.Context
+import android.support.v7.widget.RecyclerView
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -16,6 +17,8 @@ import com.wuhao028.pokedex.model.GenHeader
 import com.wuhao028.pokedex.model.Pokemon
 import com.wuhao028.pokedex.util.getTypeBackground
 import com.wuhao028.pokedex.util.getTypeText
+import kotlinx.android.synthetic.main.activity_detail.view.*
+import kotlinx.android.synthetic.main.layout_item.view.*
 
 /**
  *Created by WuHao028 on 4/11/18
@@ -75,39 +78,37 @@ class ExpandableListAdapter(var context: Context,
 
     override fun getChildView(groupPosition: Int, childPosition: Int, isLastChild: Boolean, convertView: View?, parent: ViewGroup?): View? {
         var convertView = convertView
+        var viewHolder: ChildHolder
         if (convertView == null) {
             val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             convertView = inflater.inflate(R.layout.layout_item, null)
+            viewHolder = ChildHolder(convertView)
+            convertView.setTag(viewHolder)
+        }else {
+            viewHolder = convertView?.getTag() as ChildHolder
         }
-        val poke_title = convertView?.findViewById<TextView>(R.id.poke_name)
-        val poke_no = convertView?.findViewById<TextView>(R.id.poke_no)
-        val poke_image = convertView?.findViewById<ImageView>(R.id.poke_image)
-        val poke_type_one = convertView?.findViewById<TextView>(R.id.poke_type_one)
-        val poke_type_two = convertView?.findViewById<TextView>(R.id.poke_type_two)
-//        val poke_type_view_one = convertView?.findViewById<LinearLayout>(R.id.poke_type_view_one)
-//        val poke_type_view_two = convertView?.findViewById<LinearLayout>(R.id.poke_type_view_two)
 
-        poke_title?.text = getChild(groupPosition, childPosition)?.ename
-        poke_no?.text = "# " + getChild(groupPosition, childPosition)?.id
-        poke_image?.setImageResource(DataManager.instance.getMipmapID(getChild(groupPosition, childPosition)?.ename))
+        viewHolder.poke_title?.text = getChild(groupPosition, childPosition)?.ename
+        viewHolder.poke_no?.text = "# " + getChild(groupPosition, childPosition)?.id
+        viewHolder.poke_image?.setImageResource(DataManager.instance.getMipmapID(getChild(groupPosition, childPosition)?.ename))
 
         convertView?.setOnClickListener {
             listener.onClick(convertView, getChild(groupPosition, childPosition)?.id?.toInt() - 1)
         }
         val jasonArray = getChild(groupPosition, childPosition)?.type
         if (jasonArray?.size() == 1) {
-            poke_type_one?.visibility = View.VISIBLE
-            poke_type_two?.visibility = View.INVISIBLE
-            poke_type_one?.setBackgroundResource(getTypeBackground(jasonArray[0].toString()))
-            poke_type_one?.setText(getTypeText(jasonArray[0].toString()))
+            viewHolder.poke_type_one?.visibility = View.VISIBLE
+            viewHolder.poke_type_two?.visibility = View.INVISIBLE
+            viewHolder.poke_type_one?.setBackgroundResource(getTypeBackground(jasonArray[0].toString()))
+            viewHolder.poke_type_one?.setText(getTypeText(jasonArray[0].toString()))
         }
         if (jasonArray?.size() == 2) {
-            poke_type_one?.visibility = View.VISIBLE
-            poke_type_two?.visibility = View.VISIBLE
-            poke_type_one?.setText(getTypeText(jasonArray[0].toString()))
-            poke_type_two?.setText(getTypeText(jasonArray[1].toString()))
-            poke_type_one?.setBackgroundResource(getTypeBackground(jasonArray[0].toString()))
-            poke_type_two?.setBackgroundResource(getTypeBackground(jasonArray[1].toString()))
+            viewHolder.poke_type_one?.visibility = View.VISIBLE
+            viewHolder.poke_type_two?.visibility = View.VISIBLE
+            viewHolder.poke_type_one?.setText(getTypeText(jasonArray[0].toString()))
+            viewHolder.poke_type_two?.setText(getTypeText(jasonArray[1].toString()))
+            viewHolder.poke_type_one?.setBackgroundResource(getTypeBackground(jasonArray[0].toString()))
+            viewHolder.poke_type_two?.setBackgroundResource(getTypeBackground(jasonArray[1].toString()))
 
         }
         return convertView
@@ -121,4 +122,21 @@ class ExpandableListAdapter(var context: Context,
         return header.size
     }
 
+
+    class ChildHolder(view: View): RecyclerView.ViewHolder(view){
+        val poke_title: TextView
+        val poke_no: TextView
+        val poke_type_one: TextView
+        val poke_type_two: TextView
+        val poke_image: ImageView
+
+        init {
+            poke_title = view.poke_name
+            poke_no = view.poke_no
+            poke_image = view.poke_image
+            poke_type_one = view.poke_type_one
+            poke_type_two = view.poke_type_two
+        }
+
+    }
 }
