@@ -74,7 +74,7 @@ class DataManager private constructor() {
     }
 
     fun getPokemonFourthGen(): List<Pokemon> {
-        return data.subList(386, 494)
+        return data.subList(386, 493)
     }
 
     fun getMipmapID(name: String): Int {
