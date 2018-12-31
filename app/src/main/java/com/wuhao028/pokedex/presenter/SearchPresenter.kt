@@ -27,7 +27,7 @@ class SearchPresenter {
         }
 
         for (pokemon in DataManager.instance.getPokemonData()) {
-            if (pokemon.ename.contains(words) || pokemon.cname.contains(words)) {
+            if (pokemon.ename?.toLowerCase().contains(words?.toLowerCase()) || pokemon.cname.contains(words)) {
                 result.add(pokemon)
             }
         }
