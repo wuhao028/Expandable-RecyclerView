@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     private var mHomeFragment: PokedexFragment? = null
     private var mNewsFragment: NewsFragment? = null
-    private var mHotFragment: PokedexFragment? = null
+    private var mHotFragment: ToolFragment? = null
     private var mMineFragment: PokedexFragment? = null
     //默认为0
     private var mIndex = 0
@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
             2  //热门
             -> mHotFragment?.let {
                 transaction.show(it)
-            } ?: PokedexFragment.getInstance(mTitles[position]).let {
+            } ?: ToolFragment.getInstance(mTitles[position]).let {
                 mHotFragment = it
                 transaction.add(mFragmentId, it, "hot")
             }
