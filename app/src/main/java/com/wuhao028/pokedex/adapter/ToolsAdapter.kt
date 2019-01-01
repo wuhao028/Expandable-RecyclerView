@@ -8,8 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import com.wuhao028.pokedex.R
 import kotlinx.android.synthetic.main.tool_item.view.*
+import java.time.Duration
 
 /**
  *Created by WuHao028 on 1/01/19
@@ -32,6 +34,10 @@ class ToolsAdapter(val items : ArrayList<String>, val context: Context) : Recycl
         val imageView = view.findViewById<ImageView>(R.id.poke_tool_item_image)
         nameView?.text = items.get(position)
         imageView?.setImageResource(R.mipmap.abra)
+
+        view.setOnClickListener {
+
+        }
     }
 
     class ViewHolder (view: View) : RecyclerView.ViewHolder(view) {

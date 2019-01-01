@@ -33,9 +33,9 @@ class ToolFragment : Fragment() {
 
     fun initData(){
         tools.add("Calculator")
-        tools.add("Calculator")
-        tools.add("Calculator")
-        tools.add("Calculator")
+        tools.add("Calculator1")
+        tools.add("Calculator2")
+        tools.add("Calculator3")
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
