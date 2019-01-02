@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/attack_header"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text=" "
+        android:textColor="#333333" />
+
+    <com.wuhao028.pokedex.ui.InterceptScrollContainer
+        android:id="@+id/scroollContainter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/attack_header"
+        android:layout_toRightOf="@id/attack_header"
+        android:focusable="false">
+
+        <com.wuhao028.pokedex.ui.SyncHScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/attack_textView1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Normal"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView2"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fighting"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fly"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Poison"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView5"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ground"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView6"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rock"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView7"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Bug"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView8"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ghost"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView9"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Steel"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView10"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fire"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView11"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Water"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView12"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Grass"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView13"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Electric"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView14"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Physic"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView15"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ice"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView16"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dragon"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView17"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Evil"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView18"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fairy"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+
+            </LinearLayout>
+        </com.wuhao028.pokedex.ui.SyncHScrollView>
+    </com.wuhao028.pokedex.ui.InterceptScrollContainer>
+
+</RelativeLayout>

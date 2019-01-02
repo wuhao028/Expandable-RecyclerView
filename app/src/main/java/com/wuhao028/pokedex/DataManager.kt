@@ -5,7 +5,9 @@ import android.util.Log
 import com.google.gson.Gson
 import com.wuhao028.pokedex.model.Pokemon
 import com.wuhao028.pokedex.model.Skill
+import com.wuhao028.pokedex.model.TypeAttack
 import org.json.JSONArray
+import java.util.ArrayList
 
 
 /**
@@ -86,6 +88,29 @@ class DataManager private constructor() {
             return Skill("", "", "", "", "", 0, 0, 0, "")
         } else
             return skillData[id]
+    }
+
+    fun getTypeAttackData(): ArrayList<TypeAttack>{
+        var attackData: ArrayList<TypeAttack> = arrayListOf()
+        attackData.add(TypeAttack("Normal","1","1","1","1","1","1/2","1","0","1/2", "1", "1", "1","1","1", "1","1","1","1"))
+        attackData.add(TypeAttack("Fighting","2","1","1/2","1/2","1","2","1/2","0","2","1","1","1","1","1/2","2","1","2","1/2"))
+        attackData.add(TypeAttack("Flying","1","2","1","1","1","1/2","2","1","1/2","2","1","1","1/2","1","1","1","1","1"))
+        attackData.add(TypeAttack("Poison","1","1","1","1/2","1/2","1/2","1","1/2","0","1","1","2","1","1","1","1","1","2"))
+        attackData.add(TypeAttack("Ground","1","1","0","2","1","2","1/2","1","2","2","1","1/2","2","1","1","1","1","1"))
+        attackData.add(TypeAttack("Rock","1","1/2","2","1","1/2","1","2","1","1/2","2","1","1","1","1","2","1","1","1"))
+        attackData.add(TypeAttack("Bug","1","1/2","1/2","1/2","1","1","1","1/2","1/2","1/2","1","2","1","2","1","1","2","1/2"))
+        attackData.add(TypeAttack("Ghost","0","1","1","1","1","1","1","2","1","1","1","1","1","2","1","1","1/2","1"))
+        attackData.add(TypeAttack("Steel","1","1","1","1","1","2","1","1","1/2","1/2","1/2","1","1/2","1","2","1","1","2"))
+        attackData.add(TypeAttack("Fire","1","1","1","1","1","1/2","2","1","2","1/2","1/2","2","1","1","2","1/2","1","1"))
+        attackData.add(TypeAttack("Water","1","1","1","1","2","2","1","1","1","2","1/2","1/2","1","1","1","1/2","1","1"))
+        attackData.add(TypeAttack("Grass","1","1","1/2","1/2","2","2","1/2","1","1/2","1/2","2","1/2","1","1","1","1/2","1","1"))
+        attackData.add(TypeAttack("Electric","1","1","2","1","0","1","1","1","1","1","2","1/2","1/2","1","1","1/2","1","1"))
+        attackData.add(TypeAttack("Physic","1","2","1","2","1","1","1","1","1/2","1","1","1","1","1/2","1","1","0","1"))
+        attackData.add(TypeAttack("Ice","1","1","2","1","2","1","1","1","1/2","1/2","1/2","2","1","1","1/2","2","1","1"))
+        attackData.add(TypeAttack("Dragon","1","1","1","1","1","1","1","1","1/2","1","1","1","1","1","1","2","1","0"))
+        attackData.add(TypeAttack("Evil","1","1/2","1","1","1","1","1","2","1","1","1","1","1","2","1","1","1/2","1/2"))
+        attackData.add(TypeAttack("Fairy","1","2","1","1/2","1","1","1","1","1/2","1/2","1","1","1","1","1","2","2","1"))
+        return attackData
     }
 
 }

@@ -1,7 +1,9 @@
 package com.wuhao028.pokedex.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
+import android.support.v4.content.ContextCompat.startActivity
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -10,6 +12,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import com.wuhao028.pokedex.R
+import com.wuhao028.pokedex.ui.TypeAttackActivity
 import kotlinx.android.synthetic.main.tool_item.view.*
 import java.time.Duration
 
@@ -36,7 +39,8 @@ class ToolsAdapter(val items : ArrayList<String>, val context: Context) : Recycl
         imageView?.setImageResource(R.mipmap.abra)
 
         view.setOnClickListener {
-
+            val intent = Intent(context, TypeAttackActivity::class.java)
+            context.startActivity(intent)
         }
     }
 
