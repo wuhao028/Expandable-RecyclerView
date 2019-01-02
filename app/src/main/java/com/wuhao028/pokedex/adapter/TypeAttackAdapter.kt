@@ -9,9 +9,11 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.HorizontalScrollView
 import android.widget.TextView
+import com.wuhao028.pokedex.DataManager
 import com.wuhao028.pokedex.R
 import com.wuhao028.pokedex.model.TypeAttack
 import com.wuhao028.pokedex.ui.SyncHScrollView
+import com.wuhao028.pokedex.util.getTypeBack
 
 /**
  *Created by WuHao028 on 2/01/19
@@ -111,6 +113,7 @@ class TypeAttackAdapter(context: Context,
             holder = convertView.tag as ViewHolder
         }
         holder.header!!.text = currentData[position].header
+        holder.header!!.setBackgroundResource(getTypeBack(currentData[position].header))
         holder.txt1!!.text = currentData[position].type1!!
         holder.txt2!!.text = currentData[position].type2!!
         holder.txt3!!.text = currentData[position].type3!!

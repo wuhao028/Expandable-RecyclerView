@@ -35,6 +35,31 @@ fun getTypeImageRes(type: String): Int {
     }
 }
 
+fun getTypeBack(type: String): Int {
+    var str = type.replace("\"", "")
+    when (str) {
+        "Grass" -> return R.drawable.poke_type_grass
+        "Electric" -> return R.drawable.poke_type_electric
+        "Normal" -> return R.drawable.poke_type_normal
+        "Bug" -> return R.drawable.poke_type_bug
+        "Water" -> return R.drawable.poke_type_water
+        "Ground" -> return R.drawable.poke_type_ground
+        "Poison" -> return R.drawable.poke_type_posion
+        "Fairy" -> return R.drawable.poke_type_fairy
+        "Fighting" -> return R.drawable.poke_type_fighting
+        "Flying" -> return R.drawable.poke_type_flying
+        "Rock" -> return R.drawable.poke_type_rock
+        "Ghost" -> return R.drawable.poke_type_ghost
+        "Steel" -> return R.drawable.poke_type_steel
+        "Fire" -> return R.drawable.poke_type_fire
+        "Psychic" -> return R.drawable.poke_type_psychic
+        "Ice" -> return R.drawable.poke_type_ice
+        "Dragon" -> return R.drawable.poke_type_dragon
+        "Dark" -> return R.drawable.poke_type_dark
+        else -> return 0
+    }
+}
+
 fun getTypeText(type: String): String {
     var str = type.replace("\"", "")
     when (str) {
