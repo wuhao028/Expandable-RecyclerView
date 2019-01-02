@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/attack_header"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="#333333" />
+
+    <com.wuhao028.pokedex.ui.InterceptScrollContainer
+        android:id="@+id/scroollContainter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/attack_header"
+        android:layout_toRightOf="@id/attack_header"
+        android:focusable="false">
+
+        <com.wuhao028.pokedex.ui.SyncHScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/attack_textView1"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Normal"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:background="@drawable/poke_type_normal"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView2"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fighting"
+                    android:textSize="14sp"
+                    android:background="@drawable/poke_type_fighting"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView3"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Flying"
+                    android:textSize="14sp"
+                    android:background="@drawable/poke_type_flying"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView4"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Poison"
+                    android:background="@drawable/poke_type_posion"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView5"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ground"
+                    android:background="@drawable/poke_type_ground"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView6"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rock"
+                    android:background="@drawable/poke_type_rock"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView7"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Bug"
+                    android:background="@drawable/poke_type_bug"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView8"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ghost"
+                    android:background="@drawable/poke_type_ghost"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView9"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Steel"
+                    android:background="@drawable/poke_type_steel"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView10"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fire"
+                    android:background="@drawable/poke_type_fire"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView11"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Water"
+                    android:background="@drawable/poke_type_water"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView12"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Grass"
+                    android:background="@drawable/poke_type_grass"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView13"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Electric"
+                    android:background="@drawable/poke_type_electric"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView14"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Psychic"
+                    android:background="@drawable/poke_type_psychic"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView15"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ice"
+                    android:background="@drawable/poke_type_ice"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView16"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dragon"
+                    android:background="@drawable/poke_type_dragon"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView17"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dark"
+                    android:background="@drawable/poke_type_dark"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+                <TextView
+                    android:id="@+id/attack_textView18"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fairy"
+                    android:background="@drawable/poke_type_fairy"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="#333333" />
+
+
+            </LinearLayout>
+        </com.wuhao028.pokedex.ui.SyncHScrollView>
+    </com.wuhao028.pokedex.ui.InterceptScrollContainer>
+
+</RelativeLayout>

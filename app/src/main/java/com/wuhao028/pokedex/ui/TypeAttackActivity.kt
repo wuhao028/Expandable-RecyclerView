@@ -39,7 +39,7 @@ class TypeAttackActivity : Activity() {
         setContentView(R.layout.activity_type_attack)
 
         //列表的头部视图
-        mHeadHeaderView = View.inflate(this, R.layout.type_attack_item, null)
+        mHeadHeaderView = View.inflate(this, R.layout.type_attack_item_header, null)
         mHeadHeaderHSView = mHeadHeaderView.findViewById(R.id.horizontalScrollView1)
         mHeadHeaderView.isClickable = true
 
