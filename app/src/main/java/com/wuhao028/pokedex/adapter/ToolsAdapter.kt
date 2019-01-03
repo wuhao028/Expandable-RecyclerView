@@ -12,6 +12,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import com.wuhao028.pokedex.R
+import com.wuhao028.pokedex.model.PokeTool
+import com.wuhao028.pokedex.ui.ItemActivity
 import com.wuhao028.pokedex.ui.TypeAttackActivity
 import kotlinx.android.synthetic.main.tool_item.view.*
 import java.time.Duration
@@ -20,7 +22,7 @@ import java.time.Duration
  *Created by WuHao028 on 1/01/19
  */
 
-class ToolsAdapter(val items : ArrayList<String>, val context: Context) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class ToolsAdapter(val items : ArrayList<PokeTool>, val context: Context) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
 
     override fun getItemCount(): Int {
@@ -35,12 +37,17 @@ class ToolsAdapter(val items : ArrayList<String>, val context: Context) : Recycl
         val view = holder!!.itemView
         val nameView = view.findViewById<TextView>(R.id.poke_tool_item_text)
         val imageView = view.findViewById<ImageView>(R.id.poke_tool_item_image)
-        nameView?.text = items.get(position)
-        imageView?.setImageResource(R.mipmap.abra)
+        nameView?.text = items.get(position).name
+        imageView?.setImageResource(items.get(position).imageRes)
 
         view.setOnClickListener {
-            val intent = Intent(context, TypeAttackActivity::class.java)
-            context.startActivity(intent)
+            when(position){
+                0 ->{val intent = Intent(context, TypeAttackActivity::class.java)
+                     context.startActivity(intent)}
+                1 ->{val intent = Intent(context, ItemActivity::class.java)
+                    context.startActivity(intent)}
+            }
+
         }
     }
 

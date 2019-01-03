@@ -17,7 +17,6 @@ class PokeApplication : Application() {
 
         var context: Context by Delegates.notNull()
             private set
-
     }
 
     override fun onCreate() {

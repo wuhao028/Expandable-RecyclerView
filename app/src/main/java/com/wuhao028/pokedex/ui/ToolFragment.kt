@@ -10,6 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.wuhao028.pokedex.R
 import com.wuhao028.pokedex.adapter.ToolsAdapter
+import com.wuhao028.pokedex.model.PokeTool
 import kotlinx.android.synthetic.main.fragment_tool.*
 
 /**
@@ -19,7 +20,7 @@ import kotlinx.android.synthetic.main.fragment_tool.*
 class ToolFragment : Fragment() {
 
     private var mTitle: String? = null
-    val tools: ArrayList<String> = ArrayList()
+    val tools: ArrayList<PokeTool> = ArrayList()
 
     companion object {
         fun getInstance(title: String): ToolFragment {
@@ -32,10 +33,9 @@ class ToolFragment : Fragment() {
     }
 
     fun initData(){
-        tools.add("Calculator")
-        tools.add("Calculator1")
-        tools.add("Calculator2")
-        tools.add("Calculator3")
+        tools.add(PokeTool("Attack Chart",R.mipmap.item_battle))
+        tools.add(PokeTool("Item List",R.mipmap.item_premiere_ball))
+        tools.add(PokeTool("Calculator",R.mipmap.absol))
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {

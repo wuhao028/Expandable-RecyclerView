@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/item_selector"
+    android:layout_height="90dp">
+
+
+    <ImageView
+        android:id="@+id/poke_item_list_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/poke_item_list_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/poke_item_list_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poke_item_list_text"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:textSize="12sp"/>
+
+</RelativeLayout>
