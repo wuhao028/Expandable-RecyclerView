@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     private var mHomeFragment: PokedexFragment? = null
     private var mNewsFragment: NewsFragment? = null
     private var mHotFragment: ToolFragment? = null
-    private var mMineFragment: PokedexFragment? = null
+    private var mMineFragment: MineFragment? = null
     //默认为0
     private var mIndex = 0
     private var mFragmentId = 0
@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
             3 //我的
             -> mMineFragment?.let {
                 transaction.show(it)
-            } ?: PokedexFragment.getInstance(mTitles[position]).let {
+            } ?: MineFragment.getInstance(mTitles[position]).let {
                 mMineFragment = it
                 transaction.add(mFragmentId, it, "mine")
             }
