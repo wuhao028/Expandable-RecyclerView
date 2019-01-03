@@ -37,7 +37,6 @@ class DataManager private constructor() {
         try {
             pokemons = JSONArray(json_String)
         } catch (e: Exception) {
-            Log.e(tag, e.message)
         }
         val gson = Gson()
         data = arrayListOf()
@@ -50,7 +49,6 @@ class DataManager private constructor() {
         try {
             skillsArray = JSONArray(skill_json_String)
         } catch (e: Exception) {
-            Log.e(tag, e.message)
         }
         skillData = arrayListOf()
         for (t in 0..skillsArray.length() - 1) {

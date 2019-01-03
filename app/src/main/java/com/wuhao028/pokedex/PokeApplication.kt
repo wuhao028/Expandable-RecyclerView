@@ -21,7 +21,6 @@ class PokeApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        Log.d("PokeApplication", "application begin")
         DataManager.instance.initDataManager(this)
         context = this.applicationContext
     }

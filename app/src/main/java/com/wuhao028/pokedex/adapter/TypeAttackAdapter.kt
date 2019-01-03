@@ -36,7 +36,6 @@ class TypeAttackAdapter(context: Context,
 
 
     init {
-        Log.v(TAG + ".Type4Adapter", " 初始化")
         this.mInflater = LayoutInflater.from(context)
 
     }

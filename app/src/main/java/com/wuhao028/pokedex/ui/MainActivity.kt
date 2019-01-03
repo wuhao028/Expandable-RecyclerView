@@ -46,8 +46,6 @@ class MainActivity : AppCompatActivity() {
         initTab()
         tab_layout.currentTab = mIndex
         switchFragment(mIndex)
-        Log.d("MainActivity", "onCreate")
-
     }
 
     //初始化底部菜单

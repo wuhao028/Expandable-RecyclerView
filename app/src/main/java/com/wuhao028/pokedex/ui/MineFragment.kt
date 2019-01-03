@@ -32,7 +32,9 @@ class MineFragment : Fragment() {
     }
 
     fun initData(){
+        tools.add(PokeTool("Tips", R.mipmap.item_dragon_scale))
         tools.add(PokeTool("Feedback", R.mipmap.item_dragon_scale))
+        tools.add(PokeTool("About", R.mipmap.item_dragon_scale))
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
