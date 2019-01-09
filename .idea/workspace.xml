@@ -13,7 +13,6 @@
     <list default="true" id="8ba8f1d0-0ce9-4e80-a315-defe8c834d4a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
@@ -21,25 +20,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/DataManager.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/DataManager.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/PokeApplication.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/PokeApplication.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/ExpandableListAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/ExpandableListAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/ItemAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/ItemAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/MineTabAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/MineTabAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/ToolsAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/ToolsAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/TypeAttackAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/TypeAttackAdapter.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/PokeItem.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/PokeItem.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/PokeTool.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/PokeTool.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/TypeAttack.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/model/TypeAttack.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/InterceptScrollContainer.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/InterceptScrollContainer.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/ItemActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/ItemActivity.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MineFragment.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MineFragment.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/PokedexFragment.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/PokedexFragment.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/SyncHScrollView.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/SyncHScrollView.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/ToolFragment.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/ToolFragment.kt" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/TypeAttackActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/TypeAttackActivity.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tool.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tool.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,69 +44,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InterceptScrollContainer.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/InterceptScrollContainer.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="114" column="7" lean-forward="false" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MineFragment.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MineFragment.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-              <folding>
-                <element signature="e#33#470#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ToolFragment.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/ToolFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="61" column="1" lean-forward="false" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="317">
+              <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_news.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_news.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_tool.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fragment_tool.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tool.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -2314,7 +2261,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MoveFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_move.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/MoveAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/move_item.xml" />
@@ -2362,9 +2308,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mine.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MineFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_news.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tool.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/ToolFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tool.xml" />
       </list>
     </option>
   </component>
@@ -2857,17 +2804,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/item_selector.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_group.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3223,14 +3159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/InterceptScrollContainer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/adapter/ToolsAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -3258,43 +3186,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_news.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/NewsFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="41" column="46" lean-forward="false" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tool.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MineFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="e#33#470#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3308,18 +3204,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/ToolFragment.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MineFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="61" column="1" lean-forward="false" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="408">
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#470#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="114" column="7" lean-forward="false" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+          <caret line="114" column="7" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/InterceptScrollContainer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_news.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wuhao028/pokedex/ui/ToolFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tool.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
           <folding />
         </state>
       </provider>
