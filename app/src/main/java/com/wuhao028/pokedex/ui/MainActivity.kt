@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentTransaction
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import com.flyco.tablayout.listener.CustomTabEntity
 import com.flyco.tablayout.listener.OnTabSelectListener
 import com.wuhao028.pokedex.R
@@ -18,7 +17,7 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    private val mTitles = arrayOf("Pokedex", "News", "Tool", "Mine")
+    private val mTitles = arrayOf("Pokedex", "News", "Tool")
 
     // 未被选中的图标
     private val mIconUnSelectIds = intArrayOf(R.mipmap.ic_home_normal, R.mipmap.ic_discovery_normal, R.mipmap.ic_hot_normal, R.mipmap.ic_mine_normal)

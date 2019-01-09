@@ -2,14 +2,12 @@ package com.wuhao028.pokedex.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.HorizontalScrollView
 import android.widget.TextView
-import com.wuhao028.pokedex.DataManager
 import com.wuhao028.pokedex.R
 import com.wuhao028.pokedex.model.TypeAttack
 import com.wuhao028.pokedex.ui.SyncHScrollView

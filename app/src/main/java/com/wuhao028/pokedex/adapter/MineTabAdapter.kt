@@ -18,7 +18,7 @@ import kotlinx.android.synthetic.main.tool_item.view.*
  *Created by WuHao028 on 3/01/19
  */
 
-class MineTabAdapter(val items : ArrayList<PokeTool>, val context: Context) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class MineTabAdapter(val items: ArrayList<PokeTool>, val context: Context) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
 
     override fun getItemCount(): Int {
@@ -37,17 +37,21 @@ class MineTabAdapter(val items : ArrayList<PokeTool>, val context: Context) : Re
         imageView?.setImageResource(items.get(position).imageRes)
 
         view.setOnClickListener {
-            when(position){
-                0 ->{val intent = Intent(context, TypeAttackActivity::class.java)
-                    context.startActivity(intent)}
-                1 ->{val intent = Intent(context, ItemActivity::class.java)
-                    context.startActivity(intent)}
+            when (position) {
+                0 -> {
+                    val intent = Intent(context, TypeAttackActivity::class.java)
+                    context.startActivity(intent)
+                }
+                1 -> {
+                    val intent = Intent(context, ItemActivity::class.java)
+                    context.startActivity(intent)
+                }
             }
 
         }
     }
 
-    class ViewHolder (view: View) : RecyclerView.ViewHolder(view) {
+    class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val tool_item = view.poke_tool_item_text
     }
 

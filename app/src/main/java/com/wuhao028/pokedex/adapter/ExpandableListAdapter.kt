@@ -2,7 +2,6 @@ package com.wuhao028.pokedex.adapter
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -17,7 +16,6 @@ import com.wuhao028.pokedex.model.GenHeader
 import com.wuhao028.pokedex.model.Pokemon
 import com.wuhao028.pokedex.util.getTypeBackground
 import com.wuhao028.pokedex.util.getTypeText
-import kotlinx.android.synthetic.main.activity_detail.view.*
 import kotlinx.android.synthetic.main.layout_item.view.*
 
 /**
@@ -84,7 +82,7 @@ class ExpandableListAdapter(var context: Context,
             convertView = inflater.inflate(R.layout.layout_item, null)
             viewHolder = ChildHolder(convertView)
             convertView.setTag(viewHolder)
-        }else {
+        } else {
             viewHolder = convertView?.getTag() as ChildHolder
         }
 
@@ -123,7 +121,7 @@ class ExpandableListAdapter(var context: Context,
     }
 
 
-    class ChildHolder(view: View): RecyclerView.ViewHolder(view){
+    class ChildHolder(view: View) : RecyclerView.ViewHolder(view) {
         val poke_title: TextView
         val poke_no: TextView
         val poke_type_one: TextView

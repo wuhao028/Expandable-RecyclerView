@@ -2,7 +2,6 @@ package com.wuhao028.pokedex
 
 import android.app.Application
 import android.content.Context
-import android.util.Log
 import kotlin.properties.Delegates
 
 

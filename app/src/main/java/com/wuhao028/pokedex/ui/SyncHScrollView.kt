@@ -3,7 +3,7 @@ package com.wuhao028.pokedex.ui
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.HorizontalScrollView
-import java.util.ArrayList
+import java.util.*
 
 /**
  *Created by WuHao028 on 2/01/19

@@ -2,18 +2,13 @@ package com.wuhao028.pokedex.ui
 
 import android.app.Activity
 import android.os.Bundle
-import android.util.Log
 import android.view.MotionEvent
 import android.view.View
 import android.widget.AbsListView
-import android.widget.AdapterView
 import android.widget.ListView
-import android.widget.Toast
 import com.wuhao028.pokedex.DataManager
 import com.wuhao028.pokedex.R
 import com.wuhao028.pokedex.adapter.TypeAttackAdapter
-import com.wuhao028.pokedex.model.TypeAttack
-import java.util.ArrayList
 
 /**
  *Created by WuHao028 on 2/01/19

@@ -31,7 +31,7 @@ class MineFragment : Fragment() {
         }
     }
 
-    fun initData(){
+    fun initData() {
         tools.add(PokeTool("Tips", R.mipmap.item_dragon_scale))
         tools.add(PokeTool("Feedback", R.mipmap.item_dragon_scale))
         tools.add(PokeTool("About", R.mipmap.item_dragon_scale))
@@ -46,7 +46,7 @@ class MineFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         initData()
         poke_tool_recyclerview.layoutManager = LinearLayoutManager(this.context)
-        poke_tool_recyclerview.adapter = ToolsAdapter(tools,this.context)
+        poke_tool_recyclerview.adapter = ToolsAdapter(tools, this.context)
         poke_tool_recyclerview.addItemDecoration(DividerItemDecoration(this.context, DividerItemDecoration.VERTICAL))
     }
 }

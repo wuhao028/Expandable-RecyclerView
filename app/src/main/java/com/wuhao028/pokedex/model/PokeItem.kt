@@ -4,4 +4,4 @@ package com.wuhao028.pokedex.model
  *Created by WuHao028 on 3/01/19
  */
 
-data class PokeItem(val name:String, val imageRes: Int,val des:String)
+data class PokeItem(val name: String, val imageRes: Int, val des: String)

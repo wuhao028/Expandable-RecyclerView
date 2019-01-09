@@ -2,27 +2,23 @@ package com.wuhao028.pokedex.adapter
 
 import android.content.Context
 import android.content.Intent
-import android.graphics.Color
-import android.support.v4.content.ContextCompat.startActivity
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import com.wuhao028.pokedex.R
 import com.wuhao028.pokedex.model.PokeTool
 import com.wuhao028.pokedex.ui.ItemActivity
 import com.wuhao028.pokedex.ui.TypeAttackActivity
 import kotlinx.android.synthetic.main.tool_item.view.*
-import java.time.Duration
 
 /**
  *Created by WuHao028 on 1/01/19
  */
 
-class ToolsAdapter(val items : ArrayList<PokeTool>, val context: Context) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class ToolsAdapter(val items: ArrayList<PokeTool>, val context: Context) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
 
     override fun getItemCount(): Int {
@@ -41,17 +37,21 @@ class ToolsAdapter(val items : ArrayList<PokeTool>, val context: Context) : Recy
         imageView?.setImageResource(items.get(position).imageRes)
 
         view.setOnClickListener {
-            when(position){
-                0 ->{val intent = Intent(context, TypeAttackActivity::class.java)
-                     context.startActivity(intent)}
-                1 ->{val intent = Intent(context, ItemActivity::class.java)
-                    context.startActivity(intent)}
+            when (position) {
+                0 -> {
+                    val intent = Intent(context, TypeAttackActivity::class.java)
+                    context.startActivity(intent)
+                }
+                1 -> {
+                    val intent = Intent(context, ItemActivity::class.java)
+                    context.startActivity(intent)
+                }
             }
 
         }
     }
 
-    class ViewHolder (view: View) : RecyclerView.ViewHolder(view) {
+    class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val tool_item = view.poke_tool_item_text
     }
 
