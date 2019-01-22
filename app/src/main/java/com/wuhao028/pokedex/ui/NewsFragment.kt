@@ -2,19 +2,18 @@ package com.wuhao028.pokedex.ui
 
 import android.graphics.Color
 import android.graphics.PorterDuff
+import android.opengl.Visibility
 import android.os.Build
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.webkit.WebResourceRequest
-import android.webkit.WebSettings
-import android.webkit.WebView
-import android.webkit.WebViewClient
+import android.webkit.*
 import com.wuhao028.pokedex.Constants.Companion.NEWS_URL
 import com.wuhao028.pokedex.R
 import kotlinx.android.synthetic.main.fragment_news.*
+
 
 /**
  *Created by WuHao028 on 12/11/18
@@ -57,6 +56,12 @@ class NewsFragment : Fragment() {
         poke_news.loadUrl(NEWS_URL)
         webView = poke_news
 
+        error_iv.setOnClickListener{
+            webView?.reload()
+            error_layout.visibility= View.GONE
+            webView?.visibility= View.VISIBLE
+        }
+
         webview_back.setOnClickListener {
             if (true.equals(poke_news?.canGoBack())) {
                 poke_news.goBack()
@@ -69,7 +74,17 @@ class NewsFragment : Fragment() {
             override fun shouldOverrideUrlLoading(view: WebView?, request: WebResourceRequest?): Boolean {
                 return false
             }
+
+            override fun onReceivedError(view: WebView?, request: WebResourceRequest?, error: WebResourceError?) {
+                super.onReceivedError(view, request, error)
+                showErrorPage()
+            }
         }
+    }
+
+    private fun showErrorPage() {
+        error_layout.visibility= View.VISIBLE
+        webView?.visibility= View.GONE
     }
 
 }
