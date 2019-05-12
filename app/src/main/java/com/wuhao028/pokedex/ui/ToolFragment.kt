@@ -36,11 +36,11 @@ class ToolFragment : Fragment() {
     fun initData() {
         tools.add(PokeTool("Attack Chart", R.mipmap.item_battle))
         tools.add(PokeTool("Item List", R.mipmap.item_premiere_ball))
-        tools.add(PokeTool("Calculator", R.mipmap.absol))
-
-        settings.add(PokeTool("Tips", R.mipmap.item_dragon_scale))
-        settings.add(PokeTool("Feedback", R.mipmap.item_dragon_scale))
-        settings.add(PokeTool("About", R.mipmap.item_dragon_scale))
+//        tools.add(PokeTool("Calculator", R.mipmap.absol))
+//
+//        settings.add(PokeTool("Tips", R.mipmap.item_dragon_scale))
+//        settings.add(PokeTool("Feedback", R.mipmap.item_dragon_scale))
+//        settings.add(PokeTool("About", R.mipmap.item_dragon_scale))
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
